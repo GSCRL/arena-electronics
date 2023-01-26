@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name "ESP32DK1")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "C:/Users/Kimberly/Projects/FUBAR/CombatController/footprints.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/Kimberly/Projects/arena-electronics/footprints/footprints.pretty")(options "")(descr ""))
 )
