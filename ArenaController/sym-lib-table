@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "ESP32DK1")(type "KiCad")(uri "${KIPRJMOD}/footprints/ESP32-DEVKIT-V1.kicad_sym")(options "")(descr ""))
+  (lib (name "symbols")(type "KiCad")(uri "${KIPRJMOD}/symbols/symbols.kicad_sym")(options "")(descr ""))
+)
