@@ -412,7 +412,9 @@
     "pinned_footprint_libs": [
       "footprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "symbols"
+    ]
   },
   "meta": {
     "filename": "ArenaController.kicad_pro",
