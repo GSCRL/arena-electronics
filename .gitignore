@@ -26,7 +26,7 @@ fp-info-cache
 *.csv
 
 # Arena Controller Config
-ArenaController/ArenaController-backups/
-AudioController/AudioController-backups/
-LightController/LightController-backups/
-TeamButton/backups/
+ArenaController/ArenaController-backups/*
+AudioController/AudioController-backups/*
+LightController/LightController-backups/*
+TeamButton/backups/*
