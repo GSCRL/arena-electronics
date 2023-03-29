@@ -2593,7 +2593,7 @@
     (property "Reference" "U2" (at 140.97 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 139.7 126.365 0)
+    (property "Value" "XT4140" (at 139.7 126.365 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm" (at 139.7 116.205 0)
