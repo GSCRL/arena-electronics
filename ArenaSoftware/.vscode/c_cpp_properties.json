@@ -10,6 +10,7 @@
             "includePath": [
                 "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/include",
                 "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/src",
+                "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/lib/PushButton/src",
                 "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -241,6 +242,7 @@
                 "path": [
                     "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/include",
                     "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/src",
+                    "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/lib/PushButton/src",
                     "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
