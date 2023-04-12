@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include <PushButton.h>
+#include <WiFi.h>
 
 /*
 ** Robot Combat Arena Control Code
