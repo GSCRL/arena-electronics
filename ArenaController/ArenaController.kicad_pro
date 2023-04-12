@@ -453,7 +453,7 @@
       "idf": "",
       "netlist": "Bot_Arena_control.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ArenaController.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
