@@ -6,7 +6,7 @@
 
   (title_block
     (title "Combat Arena Timing Control")
-    (date "2023-04-13")
+    (date "2023-04-14")
     (rev "0.4a")
     (company "Fair Use Building & Research Labs, 501c3")
     (comment 2 "Neil Flynn")
@@ -1936,11 +1936,6 @@
   (text "Red Light (Team 2)" (at 162.56 21.59 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f42f5bb2-2fa2-44f8-a81d-5bec0389bff4)
-  )
-  (text "These pin orders are reversed for sanity\nas rotating the connector 180 means the\n \"1:1\" pin connections change."
-    (at 211.455 127.635 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid faa2ca5f-f831-4ee7-a417-7b56009aa129)
   )
   (text "Stacklights\n\n1 - 12V\n2 - RED\n3 - YELLOW\n4 - GRN\n5 - BZR\n6 - N/C\n7 - N/C\n8 - N/C"
     (at 187.96 87.63 0)
