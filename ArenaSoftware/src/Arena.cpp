@@ -1,36 +1,74 @@
 #include <Arduino.h>
 #include <PushButton.h>
 #include <WiFi.h>
+#include <AsyncTCP.h>
+#include <ESPAsyncWebServer.h>
 
-/*
-** Robot Combat Arena Control Code
-** Using Ardunio framework / ESP32 (maybe STM32 with GPIO changes)
-** Read 8 buttons
-** ready and tap out for 2 teams
-** Match start / pause / end /reset for ref
-** Serial out to hacked iCruze display boards
-** Will control 1 or 2 "stoplight" towers with signal horns
-** NF 2022/06/04
+// Replace with your network credentials
+const char* ssid = "732-50-FUBAR";
+const char* password = "aquaman13";
 
-*/
+const char* PARAM_INPUT_1 = "output";
+const char* PARAM_INPUT_2 = "state";
 
-// State diagram
-/* no match states:
-    Reset and ready for start ( solid yellow )
-      team a ready
-      team b ready
-      both teams ready (blinking yellow)
-    match pause (blinking yellow or blinking red / match timer paused)
-    match tapout (blinking red)
-    match end by KO (blinking red)
-    match end by time (solid red)
-  Match states
-    Start pressed (3 secs of blinking yellow followed by green.  Match timer starts then)
-    start pressed after pause (same as above with timer resuming)
-    active match (solid green)
-    10 sec count down (blinking green)
-  Horn will sound at match end, time up or team tapout
-*/
+AsyncWebServer server(80);
+
+const char index_html[] PROGMEM = R"rawliteral(
+<!DOCTYPE HTML><html>
+<head>
+  <title>ESP Web Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <style>
+    html {font-family: Arial; display: inline-block; text-align: center;}
+    h2 {font-size: 3.0rem;}
+    p {font-size: 3.0rem;}
+    body {max-width: 600px; margin:0px auto; padding-bottom: 25px;}
+    .switch {position: relative; display: inline-block; width: 120px; height: 68px} 
+    .switch input {display: none}
+    .slider {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; border-radius: 6px}
+    .slider:before {position: absolute; content: ""; height: 52px; width: 52px; left: 8px; bottom: 8px; background-color: #fff; -webkit-transition: .4s; transition: .4s; border-radius: 3px}
+    input:checked+.slider {background-color: #b30000}
+    input:checked+.slider:before {-webkit-transform: translateX(52px); -ms-transform: translateX(52px); transform: translateX(52px)}
+  </style>
+</head>
+<body>
+  <h2>ESP Web Server</h2>
+  %BUTTONPLACEHOLDER%
+<script>function toggleCheckbox(element) {
+  var xhr = new XMLHttpRequest();
+  if(element.checked){ xhr.open("GET", "/update?output="+element.id+"&state=1", true); }
+  else { xhr.open("GET", "/update?output="+element.id+"&state=0", true); }
+  xhr.send();
+}
+</script>
+</body>
+</html>
+)rawliteral";
+
+String outputState(int output){
+  if(digitalRead(output)){
+    return "checked";
+  }
+  else {
+    return "";
+  }
+}
+
+// Replaces placeholder with button section in your web page
+String processor(const String& var){
+  //Serial.println(var);
+  if(var == "BUTTONPLACEHOLDER"){
+    String buttons = "";
+    buttons += "<h4>Output - GPIO 2</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"2\" " + outputState(2) + "><span class=\"slider\"></span></label>";
+    buttons += "<h4>Output - GPIO 4</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"4\" " + outputState(4) + "><span class=\"slider\"></span></label>";
+    buttons += "<h4>Output - GPIO 33</h4><label class=\"switch\"><input type=\"checkbox\" onchange=\"toggleCheckbox(this)\" id=\"33\" " + outputState(33) + "><span class=\"slider\"></span></label>";
+    return buttons;
+  }
+  return String();
+}
+
+
 // inline echo for debug
 #define DEBUG_ON 1
 #define DEBUG_OFF 0
@@ -114,7 +152,7 @@ void readBtns(MatchState &match, bool &Match_Reset)
       GameOver.update();
       GamePause.update();
       Match_Reset = false;
-      DBG("test IP");
+
       // pause hit
       if (GamePause.isCycled())
       {
@@ -367,6 +405,45 @@ void match_timer(u_int64_t StartTime, u_int64_t &timerValue, u_int8_t &running)
 void setup() {
   Serial.begin(115200);
   Serial1.begin(9600,SERIAL_8N1,D_SER_RX,D_SER_TX);
+
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.println("Connecting to WiFi..");
+  }
+
+  // Print ESP Local IP Address
+  Serial.println(WiFi.localIP());
+
+  // Route for root / web page
+  server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
+    request->send_P(200, "text/html", index_html, processor);
+  });
+
+  // Send a GET request to <ESP_IP>/update?output=<inputMessage1>&state=<inputMessage2>
+  server.on("/update", HTTP_GET, [] (AsyncWebServerRequest *request) {
+    String inputMessage1;
+    String inputMessage2;
+    // GET input1 value on <ESP_IP>/update?output=<inputMessage1>&state=<inputMessage2>
+    if (request->hasParam(PARAM_INPUT_1) && request->hasParam(PARAM_INPUT_2)) {
+      inputMessage1 = request->getParam(PARAM_INPUT_1)->value();
+      inputMessage2 = request->getParam(PARAM_INPUT_2)->value();
+      digitalWrite(inputMessage1.toInt(), inputMessage2.toInt());
+    }
+    else {
+      inputMessage1 = "No message sent";
+      inputMessage2 = "No message sent";
+    }
+    Serial.print("GPIO: ");
+    Serial.print(inputMessage1);
+    Serial.print(" - Set to: ");
+    Serial.println(inputMessage2);
+    request->send(200, "text/plain", "OK");
+  });
+
+  // Start server
+  server.begin();
+
   pinMode(R_LIGHT,OUTPUT);
   pinMode (Y_LIGHT,OUTPUT);
   pinMode (G_LIGHT, OUTPUT);
@@ -439,30 +516,7 @@ void loop()
   #else
   if ((millis()- Horn_timer) > MAIN_LOOP_DELAY * 2 )
   {
-      // short horn on start or pause
-      /*
-      if(g_match == MatchState::starting)
-      {
-        while (gHornBlast < 6)
-        {
-          soundHorn(gHornBlast,gTootTimer,HORN_SHORT,HORN);
-        }
-      }
-      else
-        if(g_match < 8)
-          gHornBlast = 0;
-      // long horn on match end
-      if(g_match > 7)
-      {
-        while (gHornBlast < 2)
-        {
-          soundHorn(gHornBlast,gTootTimer,HORN_LONG,HORN);
-        }
-      }
-      else
-        if(g_match!=MatchState::starting)
-          gHornBlast = 0;
-      */
+     
       Horn_timer = millis();
   }
   #endif
