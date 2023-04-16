@@ -11,7 +11,7 @@ const char* ssid = "732-50-FUBAR";
 const char* password = "aquaman13";
 
 WebSocketsClient webSocket; // websocket client class instance
-StaticJsonDocument<100> doc; // Allocate a static JSON document
+StaticJsonDocument<200> doc; // Allocate a static JSON document
 
 
 // inline echo for debug
@@ -98,40 +98,21 @@ void hexdump(const void *mem, uint32_t len, uint8_t cols = 16) {
 	USE_SERIAL.printf("\n");
 }
 
-void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
-  Serial.print("got ws event of some kind?");
-	switch(type) {
-		case WStype_DISCONNECTED:
-			USE_SERIAL.printf("[WSc] Disconnected!\n");
-			break;
-		case WStype_CONNECTED:
-			USE_SERIAL.printf("[WSc] Connected to url: %s\n", payload);
-
-			// send message to server when Connected
-			webSocket.sendTXT("Connected");
-			break;
-		case WStype_TEXT:
-			USE_SERIAL.printf("[WSc] get text: %s\n", payload);
-
-			// send message to server
-			// webSocket.sendTXT("message here");
-			break;
-		case WStype_BIN:
-			USE_SERIAL.printf("[WSc] get binary length: %u\n", length);
-			hexdump(payload, length);
-
-			// send data to server
-			// webSocket.sendBIN(payload, length);
-			break;
-		case WStype_ERROR:			
-		case WStype_FRAGMENT_TEXT_START:
-		case WStype_FRAGMENT_BIN_START:
-		case WStype_FRAGMENT:
-		case WStype_FRAGMENT_FIN:
-			break;
-	}
+ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
+  if (type == WStype_TEXT)
+  {
+    // deserialize incoming Json String
+    DeserializationError error = deserializeJson(doc, payload); 
+    if (error) { // Print erro msg if incomig String is not JSON formated
+      Serial.print(F("deserializeJson() failed: "));
+      Serial.println(error.c_str());
+      return;
+    }
+    String event_type = doc["type"]; // Like "match" or ""users"
+    //Serial.print(String(event_type)); // Print the received data for debugging
 
 }
+ }
 
 
 // button reading and state setting is done here
@@ -411,9 +392,9 @@ void setup() {
   // Print ESP Local IP Address
   Serial.println(WiFi.localIP());
 
-  webSocket.begin("192.168.1.110", 8001, "/");
+  webSocket.begin("192.168.1.110", 8001);
   webSocket.onEvent(webSocketEvent);
-  webSocket.setReconnectInterval(5000);
+  webSocket.setReconnectInterval(500);
 
   pinMode(R_LIGHT,OUTPUT);
   pinMode (Y_LIGHT,OUTPUT);

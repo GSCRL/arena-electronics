@@ -10,7 +10,7 @@
             "includePath": [
                 "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/include",
                 "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/src",
-                "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/lib/arduinoWebSockets-2.3.6/src",
+                "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/lib/arduinoWebSockets-2.3.0/src",
                 "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                 "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
@@ -244,7 +244,7 @@
                 "path": [
                     "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/include",
                     "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/src",
-                    "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/lib/arduinoWebSockets-2.3.6/src",
+                    "c:/Users/Kimberly/Projects/arena-electronics/ArenaSoftware/lib/arduinoWebSockets-2.3.0/src",
                     "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
                     "C:/Users/Kimberly/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
@@ -477,6 +477,7 @@
             "defines": [
                 "PLATFORMIO=60106",
                 "ARDUINO_ESP32_DEV",
+                "DEBUG_ESP_PORT=Serial",
                 "HAVE_CONFIG_H",
                 "MBEDTLS_CONFIG_FILE=\"mbedtls/esp_config.h\"",
                 "UNITY_INCLUDE_CONFIG_H",
