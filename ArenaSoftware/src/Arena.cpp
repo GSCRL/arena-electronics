@@ -16,7 +16,7 @@ AsyncWebServer server(80);
 const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html>
 <head>
-  <title>ESP Web Server</title>
+  <title>Arena Controls</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="data:,">
   <style>
@@ -33,7 +33,7 @@ const char index_html[] PROGMEM = R"rawliteral(
   </style>
 </head>
 <body>
-  <h2>ESP Web Server</h2>
+  <h2>Arena Controls</h2>
   %BUTTONPLACEHOLDER%
 <script>function toggleCheckbox(element) {
   var xhr = new XMLHttpRequest();
@@ -95,8 +95,8 @@ byte debugMode = DEBUG_ON;
 #define D_SER_TX 17
 #define D_SER_RX 16
 
-#define MATCH_LEN 180 // match len in sec ( 3 min)
-#define MATCH_END_WARN 15 // ending warn time sec
+#define MATCH_LEN 60 * 3 // match len in sec ( 3 min)
+#define MATCH_END_WARN 10 // ending warn time sec
 #define BLINK_DELAY 500 // in ms
 #define STARTUP_DELAY 3000 //3 sec
 #define MAIN_LOOP_DELAY 5 // in ms
@@ -420,6 +420,13 @@ void setup() {
     request->send_P(200, "text/html", index_html, processor);
   });
 
+    // Route for root / web page
+  server.on("/start", HTTP_GET, [](AsyncWebServerRequest *request){
+
+    request->send_P(200, "text/html", "OK");
+    Serial.print("Match started via web UI!");
+  });
+
   // Send a GET request to <ESP_IP>/update?output=<inputMessage1>&state=<inputMessage2>
   server.on("/update", HTTP_GET, [] (AsyncWebServerRequest *request) {
     String inputMessage1;
@@ -451,7 +458,7 @@ void setup() {
   digitalWrite(G_LIGHT,HIGH);
   digitalWrite(Y_LIGHT,HIGH);
   digitalWrite(R_LIGHT,HIGH);
-  Serial.println("test");
+  Serial.println("Lights test mode!");
   delay(1000);
   digitalWrite(G_LIGHT,LOW);
   digitalWrite(Y_LIGHT,LOW);
