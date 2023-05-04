@@ -1,0 +1,212 @@
+(kicad_pcb (version 20221018) (generator pcbnew)
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
+      (svgprecision 4)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory "")
+    )
+  )
+
+  (net 0 "")
+
+  (gr_text "888" (at 14.732 176.53) (layer "F.SilkS") (tstamp b8b2f81a-e6d8-4c5e-ad7c-e8d15ae38c46)
+    (effects (font (face "DSEG7 Classic Mini") (size 70 70) (thickness 0.3) bold) (justify left bottom))
+    (render_cache "888" 0
+      (polygon
+        (pts
+          (xy 28.084756 157.466357)          (xy 24.477289 153.978569)          (xy 24.477289 117.356796)          (xy 27.024742 117.356796)
+          (xy 28.46089 118.775847)          (xy 34.735489 124.964961)          (xy 34.735489 150.918206)
+        )
+      )
+      (polygon
+        (pts
+          (xy 28.46089 110.911228)          (xy 27.024742 112.330279)          (xy 24.477289 112.330279)          (xy 24.477289 75.828185)
+          (xy 28.084756 72.220718)          (xy 34.735489 78.768869)          (xy 34.735489 104.722114)
+        )
+      )
+      (polygon
+        (pts
+          (xy 31.640932 68.664542)          (xy 35.12872 65.057076)          (xy 75.785384 65.057076)          (xy 79.273172 68.664542)
+          (xy 72.725021 75.315275)          (xy 38.20618 75.315275)
+        )
+      )
+      (polygon
+        (pts
+          (xy 74.195363 109.765729)          (xy 79.273172 114.843538)          (xy 74.195363 119.921346)          (xy 36.718741 119.921346)
+          (xy 31.640932 114.843538)          (xy 36.718741 109.765729)
+        )
+      )
+      (polygon
+        (pts
+          (xy 82.829348 72.220718)          (xy 86.436815 75.708506)          (xy 86.436815 112.330279)          (xy 83.889362 112.330279)
+          (xy 82.453214 110.911228)          (xy 76.178615 104.722114)          (xy 76.178615 78.768869)
+        )
+      )
+      (polygon
+        (pts
+          (xy 79.273172 161.022533)          (xy 75.785384 164.63)          (xy 35.12872 164.63)          (xy 31.640932 161.022533)
+          (xy 38.20618 154.3718)          (xy 72.725021 154.3718)
+        )
+      )
+      (polygon
+        (pts
+          (xy 82.436117 118.775847)          (xy 83.889362 117.356796)          (xy 86.436815 117.356796)          (xy 86.436815 153.978569)
+          (xy 82.829348 157.466357)          (xy 76.178615 150.918206)          (xy 76.178615 125.067543)
+        )
+      )
+      (polygon
+        (pts
+          (xy 108.030325 157.466357)          (xy 104.422858 153.978569)          (xy 104.422858 117.356796)          (xy 106.970311 117.356796)
+          (xy 108.406459 118.775847)          (xy 114.681057 124.964961)          (xy 114.681057 150.918206)
+        )
+      )
+      (polygon
+        (pts
+          (xy 108.406459 110.911228)          (xy 106.970311 112.330279)          (xy 104.422858 112.330279)          (xy 104.422858 75.828185)
+          (xy 108.030325 72.220718)          (xy 114.681057 78.768869)          (xy 114.681057 104.722114)
+        )
+      )
+      (polygon
+        (pts
+          (xy 111.586501 68.664542)          (xy 115.074288 65.057076)          (xy 155.730953 65.057076)          (xy 159.218741 68.664542)
+          (xy 152.67059 75.315275)          (xy 118.151748 75.315275)
+        )
+      )
+      (polygon
+        (pts
+          (xy 154.140932 109.765729)          (xy 159.218741 114.843538)          (xy 154.140932 119.921346)          (xy 116.664309 119.921346)
+          (xy 111.586501 114.843538)          (xy 116.664309 109.765729)
+        )
+      )
+      (polygon
+        (pts
+          (xy 162.774916 72.220718)          (xy 166.382383 75.708506)          (xy 166.382383 112.330279)          (xy 163.83493 112.330279)
+          (xy 162.398782 110.911228)          (xy 156.124184 104.722114)          (xy 156.124184 78.768869)
+        )
+      )
+      (polygon
+        (pts
+          (xy 159.218741 161.022533)          (xy 155.730953 164.63)          (xy 115.074288 164.63)          (xy 111.586501 161.022533)
+          (xy 118.151748 154.3718)          (xy 152.67059 154.3718)
+        )
+      )
+      (polygon
+        (pts
+          (xy 162.381685 118.775847)          (xy 163.83493 117.356796)          (xy 166.382383 117.356796)          (xy 166.382383 153.978569)
+          (xy 162.774916 157.466357)          (xy 156.124184 150.918206)          (xy 156.124184 125.067543)
+        )
+      )
+      (polygon
+        (pts
+          (xy 187.975893 157.466357)          (xy 184.368427 153.978569)          (xy 184.368427 117.356796)          (xy 186.915879 117.356796)
+          (xy 188.352027 118.775847)          (xy 194.626626 124.964961)          (xy 194.626626 150.918206)
+        )
+      )
+      (polygon
+        (pts
+          (xy 188.352027 110.911228)          (xy 186.915879 112.330279)          (xy 184.368427 112.330279)          (xy 184.368427 75.828185)
+          (xy 187.975893 72.220718)          (xy 194.626626 78.768869)          (xy 194.626626 104.722114)
+        )
+      )
+      (polygon
+        (pts
+          (xy 191.532069 68.664542)          (xy 195.019857 65.057076)          (xy 235.676521 65.057076)          (xy 239.164309 68.664542)
+          (xy 232.616159 75.315275)          (xy 198.097317 75.315275)
+        )
+      )
+      (polygon
+        (pts
+          (xy 234.086501 109.765729)          (xy 239.164309 114.843538)          (xy 234.086501 119.921346)          (xy 196.609878 119.921346)
+          (xy 191.532069 114.843538)          (xy 196.609878 109.765729)
+        )
+      )
+      (polygon
+        (pts
+          (xy 242.720485 72.220718)          (xy 246.327952 75.708506)          (xy 246.327952 112.330279)          (xy 243.780499 112.330279)
+          (xy 242.344351 110.911228)          (xy 236.069752 104.722114)          (xy 236.069752 78.768869)
+        )
+      )
+      (polygon
+        (pts
+          (xy 239.164309 161.022533)          (xy 235.676521 164.63)          (xy 195.019857 164.63)          (xy 191.532069 161.022533)
+          (xy 198.097317 154.3718)          (xy 232.616159 154.3718)
+        )
+      )
+      (polygon
+        (pts
+          (xy 242.327254 118.775847)          (xy 243.780499 117.356796)          (xy 246.327952 117.356796)          (xy 246.327952 153.978569)
+          (xy 242.720485 157.466357)          (xy 236.069752 150.918206)          (xy 236.069752 125.067543)
+        )
+      )
+    )
+  )
+
+)
