@@ -1,5 +1,9 @@
 # arena-electronics
 
+# Other Repos
+
+UI / Webserver - https://github.com/fubarlabs/RobotCombatOverlay
+ESP32 Firmware - https://github.com/neilpf2014/bot-arena-control
 ## Build Arg Notes
 
 ```ini
