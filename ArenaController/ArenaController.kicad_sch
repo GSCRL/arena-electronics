@@ -2322,6 +2322,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 201.93 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 03b28859-2417-47a9-9771-753e65f1b031)
+    (property "Reference" "#PWR09" (at 201.93 50.8 0)
+      (effects (font (size 0.7874 0.7874)) hide)
+    )
+    (property "Value" "GND" (at 202.057 47.6758 90)
+      (effects (font (size 0.7874 0.7874)) (justify right))
+    )
+    (property "Footprint" "" (at 201.93 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 201.93 44.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 18901bfe-64aa-4ff8-8c0a-08f711dcf106))
+    (instances
+      (project "ArenaController"
+        (path "/156576da-4c7a-4c71-af43-7540e3a24bd3"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:RJ45") (at 212.09 63.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0fb0f12c-36bd-458a-8ca0-65784d5a0887)
@@ -3081,6 +3106,31 @@
       (project "ArenaController"
         (path "/156576da-4c7a-4c71-af43-7540e3a24bd3"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 201.93 73.66 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c88e4970-fdbc-4e4a-a119-3a0cdc6547b8)
+    (property "Reference" "#PWR08" (at 201.93 80.01 0)
+      (effects (font (size 0.7874 0.7874)) hide)
+    )
+    (property "Value" "GND" (at 202.057 76.8858 90)
+      (effects (font (size 0.7874 0.7874)) (justify right))
+    )
+    (property "Footprint" "" (at 201.93 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 201.93 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid cbbc1c49-e1a4-4a85-85e9-dfa59dba1bc3))
+    (instances
+      (project "ArenaController"
+        (path "/156576da-4c7a-4c71-af43-7540e3a24bd3"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
