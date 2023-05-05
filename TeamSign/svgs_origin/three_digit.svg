@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="257.175mm"
+   height="114.3mm"
+   viewBox="0 0 257.175 114.3"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="three_digit.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.914906"
+     inkscape:cx="481.47023"
+     inkscape:cy="402.77362"
+     inkscape:window-width="3200"
+     inkscape:window-height="1721"
+     inkscape:window-x="-9"
+     inkscape:window-y="1791"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1038" />
+  <defs
+     id="defs2">
+    <rect
+       x="88.533684"
+       y="209.85762"
+       width="791.33813"
+       height="433.92435"
+       id="rect952" />
+    <rect
+       x="88.533684"
+       y="209.85762"
+       width="791.33813"
+       height="433.92435"
+       id="rect952-0" />
+  </defs>
+  <g
+     inkscape:label="[fixed] BG"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true"
+     id="g1024">
+    <rect
+       x="0"
+       y="0"
+       width="257.175"
+       height="114.3"
+       style="fill:#FFFFFF;fill-opacity:1;stroke:none"
+       id="rect1022" />
+  </g>
+  <g
+     inkscape:label="Edge.Cuts"
+     inkscape:groupmode="layer"
+     id="g1026" />
+  <g
+     inkscape:label="B.Cu"
+     inkscape:groupmode="layer"
+     id="g1028" />
+  <g
+     inkscape:label="B.Mask"
+     inkscape:groupmode="layer"
+     id="g1030" />
+  <g
+     inkscape:label="B.SilkS"
+     inkscape:groupmode="layer"
+     id="g1032" />
+  <g
+     inkscape:label="F.Cu"
+     inkscape:groupmode="layer"
+     id="g1034" />
+  <g
+     inkscape:label="F.Mask"
+     inkscape:groupmode="layer"
+     id="g1036" />
+  <g
+     inkscape:label="F.SilkS"
+     inkscape:groupmode="layer"
+     id="g1038">
+    <path
+       d="M 3.5433557,105.72744 5.5682715e-5,102.29844 V 60.693244 H 2.0574557 l 1.4859,1.4859 7.0866003,6.9723 v 29.6037 z m 0,-53.606696 -1.4859,1.4859 H 5.5682715e-5 v -41.4909 L 3.5433557,8.5724441 10.629956,15.544744 v 29.6037 z M 8.5725558,3.5432441 12.001556,-5.5875e-5 h 46.634401 l 3.429,3.543299975 -6.972301,7.0865999 h -39.5478 z m 48.2346002,48.3488999 5.257801,5.2578 -5.257801,5.2578 h -42.9768 l -5.2578002,-5.2578 5.2578002,-5.2578 z m 10.287001,-43.3196999 3.5433,3.4289999 v 41.6052 h -2.0574 l -1.4859,-1.4859 -7.0866,-6.9723 v -29.6037 z m -5.0292,102.1841959 -3.429,3.5433 H 12.001556 l -3.4290002,-3.5433 6.9723002,-7.0866 h 39.5478 z m 5.0292,-48.577496 1.4859,-1.4859 h 2.0574 v 41.605196 l -3.5433,3.429 -7.0866,-6.972296 v -29.4894 z"
+       style="font-size:16px;font-family:'DSEG7 Classic Mini';-inkscape-font-specification:'DSEG7 Classic Mini';text-align:center;white-space:pre;stroke-width:8.10001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1094" />
+    <path
+       d="m 96.812157,105.72744 -3.5433,-3.429 V 60.693244 h 2.0574 l 1.4859,1.4859 7.086603,6.9723 v 29.6037 z m 0,-53.606696 -1.4859,1.4859 h -2.0574 v -41.4909 l 3.5433,-3.5432999 7.086603,6.9722999 v 29.6037 z m 5.029203,-48.5774999 3.429,-3.543299975 h 46.6344 l 3.429,3.543299975 -6.9723,7.0865999 h -39.5478 z m 48.2346,48.3488999 5.2578,5.2578 -5.2578,5.2578 h -42.9768 l -5.2578,-5.2578 5.2578,-5.2578 z m 10.287,-43.3196999 3.5433,3.4289999 v 41.6052 h -2.0574 l -1.4859,-1.4859 -7.0866,-6.9723 v -29.6037 z m -5.0292,102.1841959 -3.429,3.5433 h -46.6344 l -3.429,-3.5433 6.9723,-7.0866 h 39.5478 z m 5.0292,-48.577496 1.4859,-1.4859 h 2.0574 v 41.605196 l -3.5433,3.429 -7.0866,-6.972296 v -29.4894 z"
+       style="font-size:16px;font-family:'DSEG7 Classic Mini';-inkscape-font-specification:'DSEG7 Classic Mini';text-align:center;white-space:pre;stroke-width:8.10001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1096" />
+    <path
+       d="m 190.08096,105.72744 -3.5433,-3.429 V 60.693244 h 2.0574 l 1.4859,1.4859 7.0866,6.9723 v 29.6037 z m 0,-53.606696 -1.4859,1.4859 h -2.0574 v -41.4909 l 3.5433,-3.5432999 7.0866,6.9722999 v 29.6037 z m 5.0292,-48.5774999 3.429,-3.543299975 h 46.6344 l 3.429,3.543299975 -6.9723,7.0865999 h -39.5478 z m 48.2346,48.3488999 5.2578,5.2578 -5.2578,5.2578 h -42.9768 l -5.2578,-5.2578 5.2578,-5.2578 z m 10.287,-43.3196999 3.5433,3.4289999 v 41.6052 h -2.0574 l -1.4859,-1.4859 -7.0866,-6.9723 v -29.6037 z m -5.0292,102.1841959 -3.429,3.5433 h -46.6344 l -3.429,-3.5433 6.9723,-7.0866 h 39.5478 z m 5.0292,-48.577496 1.4859,-1.4859 h 2.0574 v 41.605196 l -3.5433,3.429 -7.0866,-6.972296 v -29.4894 z"
+       style="font-size:16px;font-family:'DSEG7 Classic Mini';-inkscape-font-specification:'DSEG7 Classic Mini';text-align:center;white-space:pre;stroke-width:8.10001;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="path1098" />
+  </g>
+  <g
+     inkscape:label="Dwgs.User"
+     inkscape:groupmode="layer"
+     id="g1040" />
+  <g
+     inkscape:label="Drill"
+     inkscape:groupmode="layer"
+     id="g1042" />
+</svg>

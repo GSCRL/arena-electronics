@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "three_digit")(type KiCad)(uri "$(KIPRJMOD)/three_digit.pretty")(options "")(descr ""))
+)
