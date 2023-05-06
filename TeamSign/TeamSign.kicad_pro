@@ -420,12 +420,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "/LED Array 1/sk_input"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -482,11 +477,11 @@
       "LED Array 1"
     ],
     [
-      "3d67f6c3-b16a-4cd0-80ea-37dee9ba769f",
+      "1ccf1161-a920-4560-b607-b911d201c9eb",
       "LED Array 2"
     ],
     [
-      "d7adcc4a-f1c6-43f3-8f73-979745d7dbe5",
+      "593aa873-c442-4cda-a09c-ecd8301dff0b",
       "LED Array 3"
     ]
   ],

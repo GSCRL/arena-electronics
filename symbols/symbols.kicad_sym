@@ -64,7 +64,7 @@
     (property "Value" "Barrel_Jack_MountingPin" (at 1.27 -6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 1.27 -1.016 0)
+    (property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal" (at 1.27 -1.016 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 1.27 -1.016 0)
