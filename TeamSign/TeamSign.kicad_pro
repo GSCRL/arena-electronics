@@ -377,7 +377,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -420,7 +420,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/LED Array 1/sk_input"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -471,6 +476,18 @@
     [
       "e53f9913-0070-41c4-b6c8-5a044462b6d9",
       ""
+    ],
+    [
+      "6b160b85-763a-4837-8d13-6101fa4e7c88",
+      "LED Array 1"
+    ],
+    [
+      "3d67f6c3-b16a-4cd0-80ea-37dee9ba769f",
+      "LED Array 2"
+    ],
+    [
+      "d7adcc4a-f1c6-43f3-8f73-979745d7dbe5",
+      "LED Array 3"
     ]
   ],
   "text_variables": {}
