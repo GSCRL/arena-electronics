@@ -1415,8 +1415,8 @@
     (property "Datasheet" "~" (at 167.005 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5a9c6b3f-ab85-4182-abaf-5f7a78e99a9b))
-    (pin "2" (uuid ea10c6d4-51a9-4262-a09d-5b35bb07ceb6))
+    (pin "1" (uuid 924c91c3-b32e-4fbf-a3d1-c9e01cbd354b))
+    (pin "2" (uuid 686a87c2-0af2-4c2d-a66a-77a93b71c38c))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1450,8 +1450,8 @@
     (property "Datasheet" "~" (at 198.755 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10a9d137-803d-4329-a049-7a5eb110761c))
-    (pin "2" (uuid 88316ffe-26d5-4914-bb41-508e7cff3187))
+    (pin "1" (uuid c1f8693a-6452-4fa6-92dc-dc2f362f3ae8))
+    (pin "2" (uuid d6b05570-7a42-4654-8440-fdb732b8742e))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1485,8 +1485,8 @@
     (property "Datasheet" "~" (at 320.675 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c0db6433-3888-413b-bd6e-f37a5067016a))
-    (pin "2" (uuid d4775a4c-63bc-41ee-a5ea-32807635dcd1))
+    (pin "1" (uuid 32b1b445-6a4a-43c9-b0ce-06d07d8b8799))
+    (pin "2" (uuid fefd0cb3-6a99-485c-a8de-cd0cf0e8c580))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1520,10 +1520,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 262.255 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid f45fa4b9-7a71-473e-a5c5-ead18870427a))
-    (pin "2" (uuid 17654718-76d5-46ff-9fc3-06fa7785af4d))
-    (pin "3" (uuid 1191a2de-986c-4780-b7b4-7974f479e9dd))
-    (pin "4" (uuid 227cef5f-02d7-49a4-a920-4143d32753fa))
+    (pin "1" (uuid 56483d2a-425b-4fdb-9c58-7162fc510a80))
+    (pin "2" (uuid c17aa558-ae4f-43af-87fa-2aca7d92cd43))
+    (pin "3" (uuid 74a7ea8d-f52a-4ef6-b245-1fcc1bb4f765))
+    (pin "4" (uuid a18b72dc-fefb-4e89-ba5f-8961b40e2b0a))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1557,8 +1557,8 @@
     (property "Datasheet" "~" (at 146.685 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b653f563-b8e3-4610-884c-360fe7072163))
-    (pin "2" (uuid 8a103507-a61c-4b93-a1ac-38cc33c8a9bb))
+    (pin "1" (uuid d8247ceb-a11e-42ad-98ff-810c18cca01b))
+    (pin "2" (uuid 3f7f963f-552b-4a3b-aad1-67a30dc2c95f))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1592,10 +1592,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 131.445 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 7d2d34b4-f0ee-4e07-bba2-9c45bb3726ce))
-    (pin "2" (uuid bc16a4db-b1f5-4933-a416-bc03ac578074))
-    (pin "3" (uuid 551f0f33-f4dd-4213-bbf9-2029793b38ca))
-    (pin "4" (uuid 57b23da3-0fe2-46cf-8321-a9797a2bd64c))
+    (pin "1" (uuid 7c8bd4c3-f393-4931-9114-d739652a5b07))
+    (pin "2" (uuid ac10476a-16ce-4a57-aa43-62669b418fe1))
+    (pin "3" (uuid de15e97b-6f72-4d58-abb6-505f57fab6ed))
+    (pin "4" (uuid 1ac7157f-42af-4e17-ab4c-2c8a5d5b76e2))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1629,10 +1629,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 314.325 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 76bd5ad0-f4e4-4889-b5cc-bda13daa6e64))
-    (pin "2" (uuid 769c279e-09dc-4f7f-8bd3-b65b37986169))
-    (pin "3" (uuid fecfc80a-4168-4de1-96bf-4196884901a8))
-    (pin "4" (uuid 22cd5584-eb31-4814-a82a-36c5497bdc30))
+    (pin "1" (uuid 56b13855-d401-4311-bdda-783df28e58d9))
+    (pin "2" (uuid 79cf9159-de10-4c69-9666-144ed4c0e780))
+    (pin "3" (uuid 3b370836-3c64-4481-8883-5614a4c6fdc2))
+    (pin "4" (uuid 72363d24-53ff-49d5-ad49-c4a4c73e6b64))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1666,8 +1666,8 @@
     (property "Datasheet" "~" (at 280.035 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0b14e87-527b-4297-ace3-cbce89bc5e8c))
-    (pin "2" (uuid 7768ffec-5cbd-43db-878c-123214656ddd))
+    (pin "1" (uuid e03c6093-2af0-4d7d-af2f-93d30d3277e2))
+    (pin "2" (uuid 8fa5efe3-8c4e-4c7c-8336-5b4c4c42e3ab))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1701,8 +1701,8 @@
     (property "Datasheet" "~" (at 239.395 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e25cc5d5-9e79-4927-b3c5-00ea03e2e7ee))
-    (pin "2" (uuid a6b6b42f-ef83-4f17-a02e-212cbd559202))
+    (pin "1" (uuid 709db963-d541-4670-b400-96c325a68ceb))
+    (pin "2" (uuid ab9b280c-f531-4f1e-80cb-57d6bf53169c))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1736,8 +1736,8 @@
     (property "Datasheet" "~" (at 114.935 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ad71ee3b-ed78-4530-bf02-c37371817cd6))
-    (pin "2" (uuid 5da5be9b-8c3a-49dd-a68a-585266776516))
+    (pin "1" (uuid 72aa1985-ac84-412d-974c-98bdb670ca97))
+    (pin "2" (uuid 7436a1e6-e9c8-45af-a422-577782f4dc6f))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1771,8 +1771,8 @@
     (property "Datasheet" "~" (at 135.255 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c72a8e79-6ede-49a7-a4c1-a7db5283c1a2))
-    (pin "2" (uuid ade7b387-162a-4d95-b6e5-eddba3687c0a))
+    (pin "1" (uuid de6228cc-134b-457b-b0cb-fe91dfbbcb2e))
+    (pin "2" (uuid 76fce173-37ea-4d70-bd16-5c3d47d2ee4a))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1806,10 +1806,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 128.905 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 1cdde20a-cca0-43e1-bc65-4e0f0e29bafd))
-    (pin "2" (uuid ed008dbb-8977-417e-ad0d-86e108da9255))
-    (pin "3" (uuid bfc591be-1fcb-4bb2-b7b7-cadd410bc2a2))
-    (pin "4" (uuid 3ec5d7b1-8c44-4222-819a-e5688e99fc83))
+    (pin "1" (uuid a4a54234-0105-47fa-ae9f-2199d66390bb))
+    (pin "2" (uuid 62db60c3-6194-4152-8f04-6ab59de37f3e))
+    (pin "3" (uuid 24e6b2dc-bea8-44e6-8bb4-85123037dfb5))
+    (pin "4" (uuid f270621c-2b92-4f78-8acf-1f2cd09cadf2))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1843,10 +1843,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 294.005 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 5caf98ec-43ad-446a-82e6-e3e12e415205))
-    (pin "2" (uuid a4f0bbae-2a41-4359-a4b1-2b8dffd41df1))
-    (pin "3" (uuid 294f4eaa-09ef-41e7-b3f8-bbba5f999e28))
-    (pin "4" (uuid a35bece2-7234-4f7f-9878-82f7fdf3c740))
+    (pin "1" (uuid 0f3a7e3b-b457-469f-acd1-cc3f7d742e14))
+    (pin "2" (uuid 794106d3-6bb7-4221-b869-5b7c98bef52e))
+    (pin "3" (uuid 68459d83-7a0b-454b-97f6-6c0fb7c5bea7))
+    (pin "4" (uuid b78ae0da-cbb1-4544-838e-171994ca9e88))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1880,8 +1880,8 @@
     (property "Datasheet" "~" (at 248.285 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba89e76f-8593-4413-8a5e-13576ab5e4d5))
-    (pin "2" (uuid 87440f33-96fa-4b1e-bc67-68fa2a438582))
+    (pin "1" (uuid 84ab1560-782c-4bda-930c-55bfd92fbfa5))
+    (pin "2" (uuid a3b7703c-923b-4036-b1c2-21da74b7f55f))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1915,8 +1915,8 @@
     (property "Datasheet" "~" (at 155.575 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 74beb39c-7f4f-4e88-80c3-ce8a7bcb31d0))
-    (pin "2" (uuid 80a13860-a5ac-4b41-8c9a-7ad93b0f35b6))
+    (pin "1" (uuid ca88dd98-2aca-41fc-a305-d7cf973483ba))
+    (pin "2" (uuid b28af7b4-9658-4aba-bf66-70d0c5ecc5bd))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1950,10 +1950,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 120.015 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid fcb624a1-6056-4a5d-80a0-03dd4c390c17))
-    (pin "2" (uuid 3d4615cc-ff10-4921-a490-327d64d04a54))
-    (pin "3" (uuid f5e3c01e-cb20-46ae-96b9-a898ac9b0c07))
-    (pin "4" (uuid f573c4bf-4a96-4f04-bd91-52b57de8ec12))
+    (pin "1" (uuid 8af10348-a536-4c99-92b9-95972d9e5736))
+    (pin "2" (uuid 6fbe0113-7330-449f-8ef5-02d7e25de3e7))
+    (pin "3" (uuid 531f2a65-11d9-4616-bd24-483dde01db6d))
+    (pin "4" (uuid 0e8f0749-9f09-4407-bb3f-183b1ede36cd))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -1987,10 +1987,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 99.695 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 4f3a629c-d6ac-499e-9832-cc6f7cf8ca49))
-    (pin "2" (uuid 4c42f09e-7943-4812-b2d7-aa74d8a985ed))
-    (pin "3" (uuid 23137bc6-e363-46e3-9d1d-eafec33ea1a8))
-    (pin "4" (uuid b62d4971-b6d8-4ed2-878f-6921fc16dde7))
+    (pin "1" (uuid 51f253a6-eeb0-4a19-9933-bf00937be993))
+    (pin "2" (uuid 7b953239-5c37-414a-ac36-2a3596684004))
+    (pin "3" (uuid a9d92051-a0b4-4c97-87db-444a15d8a661))
+    (pin "4" (uuid ba42e63b-bb62-45ff-b492-320606c2ee81))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2024,10 +2024,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 172.085 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 97aa24f8-ff0f-45f4-9b66-7aa6b9db3ec7))
-    (pin "2" (uuid d4ab1bad-0802-44f8-aad9-694a45508098))
-    (pin "3" (uuid 3f2997c1-38e4-40af-ba47-5fedff21a890))
-    (pin "4" (uuid 36c7436d-9e59-444b-845a-8c27ab32d216))
+    (pin "1" (uuid 78125ffb-51a2-4338-b07a-48599f879a61))
+    (pin "2" (uuid 1f6886a6-0d24-477b-9f26-c68eef14fc10))
+    (pin "3" (uuid e7c6c42b-3800-487c-a416-adb80b3c841b))
+    (pin "4" (uuid f68e026c-e0ea-4d7c-8863-f61adb3a5c57))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2061,7 +2061,7 @@
     (property "Datasheet" "" (at 94.615 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a97a5c54-29ee-4208-ad58-771774c163db))
+    (pin "1" (uuid b8a4e9da-341a-4d88-9f85-13e81175eb75))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2095,10 +2095,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 233.045 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid caa239fd-eb78-4989-a80e-b8536f6ebe0e))
-    (pin "2" (uuid 8162c9ee-748b-4108-97e0-f100afd2b61a))
-    (pin "3" (uuid ba848df4-4d8d-4e81-9145-6332fad310be))
-    (pin "4" (uuid 81717711-851f-4fc0-acfe-a914d5e7e708))
+    (pin "1" (uuid c4b8f80b-e30c-4144-9ecc-07495d1ad107))
+    (pin "2" (uuid b0344660-27dc-4fd0-9630-3751d4663c4e))
+    (pin "3" (uuid 035c43a6-ca3a-4491-b789-1e9ca1eca18f))
+    (pin "4" (uuid f85999cc-f45b-4912-a8ae-e5daccd97900))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2132,8 +2132,8 @@
     (property "Datasheet" "~" (at 117.475 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ba827fc-efa1-48f2-b830-acc1127841e7))
-    (pin "2" (uuid 7c81e8ea-6c5e-4a5f-8c11-1b3af42edc35))
+    (pin "1" (uuid 7f2b7138-2ece-43b8-acc4-08d5d738c0e6))
+    (pin "2" (uuid 9fea3e3a-d182-4de1-a291-b4eca7cdbc3a))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2167,8 +2167,8 @@
     (property "Datasheet" "~" (at 207.645 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 68fbdcd3-242b-4bf5-a067-7e0be638759f))
-    (pin "2" (uuid 531ae941-a43a-42f8-9a7c-6dc4b6b97797))
+    (pin "1" (uuid fe8a3860-f090-4dec-a598-3193281434dc))
+    (pin "2" (uuid be2888b6-e0b2-4d8e-bc53-e356eab06a55))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2202,8 +2202,8 @@
     (property "Datasheet" "~" (at 288.925 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 306bebef-dacf-4496-aa1e-2b0e6aaf25b5))
-    (pin "2" (uuid 2d318f13-c44c-409a-8edc-4cbf4a52429e))
+    (pin "1" (uuid 06381a3e-5cd4-4dac-bace-5667e13451ed))
+    (pin "2" (uuid 8acb7786-f730-4d75-a12e-032c6e3bfdbc))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2237,10 +2237,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 343.535 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 7d2d4db5-1c39-4117-90d6-c31299a00919))
-    (pin "2" (uuid 23494ba7-ed72-4ba3-a7d8-a4cb771a0d2b))
-    (pin "3" (uuid 800e35a4-7153-4c77-85f5-c7143ce49ed4))
-    (pin "4" (uuid 6fbcd43f-d510-46a3-8f0f-f436e7b0ee61))
+    (pin "1" (uuid 5d3a777d-30b1-40f5-ad58-df620b9097f8))
+    (pin "2" (uuid d4dc0492-29f5-4c16-9181-52a44bea0a02))
+    (pin "3" (uuid 123b22ad-f74c-4e1e-8b3c-10ed8e0b327d))
+    (pin "4" (uuid 4fbaebed-03dd-4bd3-9575-feb84d3bbf83))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2274,7 +2274,7 @@
     (property "Datasheet" "" (at 108.585 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aac2149b-a23d-4234-a304-2a94700ddb92))
+    (pin "1" (uuid a47ecf52-fdd8-4b50-8c03-e34ef8b0d7df))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2308,10 +2308,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 334.645 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid c7febd29-ea0b-421c-8fdb-dca050d09729))
-    (pin "2" (uuid a55e563b-43a9-4303-904b-5dd16bec6e1c))
-    (pin "3" (uuid fb17fd58-973b-44a6-81be-8e612b7caa6e))
-    (pin "4" (uuid 87e8b56e-16d5-4240-b636-16435aff20b6))
+    (pin "1" (uuid 774c4312-a712-44ec-b160-baea41d3a5c0))
+    (pin "2" (uuid bd5ee691-77fa-4437-bcae-c7576bf1f5e0))
+    (pin "3" (uuid aabbebe5-abf9-48e2-8b9e-53f916a2fbc8))
+    (pin "4" (uuid f173cbac-a8ec-4ec2-b877-da0784889caa))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2345,10 +2345,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 160.655 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 66b97e2d-b7f6-4ac9-813b-5c498d4e449d))
-    (pin "2" (uuid 88f37c90-df6d-41c7-bea7-0b37ee583c84))
-    (pin "3" (uuid 30292352-ddee-4486-921a-a8c77d57e105))
-    (pin "4" (uuid f8dafa21-38e3-4872-9ab0-7db452497026))
+    (pin "1" (uuid 91c41266-0625-43c4-ba67-f298fbdf6938))
+    (pin "2" (uuid e9f38677-b1ab-4e65-9c66-5d723fb6cb4c))
+    (pin "3" (uuid a38d39b6-cb19-47f4-b11b-c93cde3a8304))
+    (pin "4" (uuid 8f355fcf-0132-4de9-9ce8-9fcc0ab485d0))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2382,10 +2382,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 241.935 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid f6a4471c-d12b-4086-bc71-e4f3f0f863e1))
-    (pin "2" (uuid 0ef82d8f-33e6-480d-8c54-fb2e0b70d40b))
-    (pin "3" (uuid 48c78bef-bd11-4c36-a393-381408e49b1f))
-    (pin "4" (uuid 45878f32-d233-4f2c-b7f3-d42a17774a8a))
+    (pin "1" (uuid f3c3c69d-7621-4974-8a7d-b0f1380959e6))
+    (pin "2" (uuid db918175-7063-4840-b37a-132a184bc60c))
+    (pin "3" (uuid dc5d4ab3-05f2-45f6-a123-78b911cf0f39))
+    (pin "4" (uuid da9b0bf8-9b47-444f-bd60-a1d0b8892657))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2419,8 +2419,8 @@
     (property "Datasheet" "~" (at 158.115 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e846bb3-dcf9-40e8-85df-155db2820d19))
-    (pin "2" (uuid 2f277a6f-c127-475a-b54e-7212e7877105))
+    (pin "1" (uuid 7ac9363d-6084-4807-abb7-d3c3c84f497d))
+    (pin "2" (uuid 1c27016f-659c-483c-9208-75533f2d95e1))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2454,10 +2454,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 302.895 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 64e1f4c4-3a00-4682-a9ed-322c1b0926fa))
-    (pin "2" (uuid 7262471f-0011-47e1-9e76-69f803a4179c))
-    (pin "3" (uuid 5b4fe683-d995-4610-8eb3-f4231f662b67))
-    (pin "4" (uuid b64e6901-dcd1-4698-9700-5f30226bcb05))
+    (pin "1" (uuid a02d16e3-325e-47a9-a3a3-ec55e8951030))
+    (pin "2" (uuid 809ccbfa-37d9-4cc1-acd7-0d729e894190))
+    (pin "3" (uuid 27c04a06-3f05-4de1-95bf-101a489f988b))
+    (pin "4" (uuid 330a5be4-245f-4d51-ab8c-dde06f75c93c))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2491,10 +2491,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 221.615 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 15ac0c4b-875d-4e97-94d7-a08a43d4f4be))
-    (pin "2" (uuid 98f98ada-56b9-4a19-961f-2b5c9e8e8651))
-    (pin "3" (uuid 0d2e2422-a9b0-44f4-a66c-0f6ac00bdbc1))
-    (pin "4" (uuid c03c38d4-eeb5-416b-91e1-84c713e2b4f6))
+    (pin "1" (uuid 4340b416-e74c-4dfb-b5a6-2b9629ca4ab0))
+    (pin "2" (uuid e47d0f4e-cd37-4a85-8987-4cd99ad46526))
+    (pin "3" (uuid fecce1a1-884d-4ee1-bb51-d5e912ac8ce3))
+    (pin "4" (uuid fa77c3a4-2f6d-44da-94f8-a2bfd2fc0baf))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2528,10 +2528,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 192.405 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 1640d1cb-c8a3-4056-bd25-eb8dde4836be))
-    (pin "2" (uuid bc267ec9-1722-47fe-af34-1a02797c418f))
-    (pin "3" (uuid cd229389-96f2-447d-bc60-894ec382add2))
-    (pin "4" (uuid 2b69afee-b161-4afe-aaf8-21bf6094bfa0))
+    (pin "1" (uuid 7483692b-6d0c-4c4f-bde9-8d1349fe960c))
+    (pin "2" (uuid 3346104d-a81c-4dad-85cf-269ae6f994e8))
+    (pin "3" (uuid 252acda1-1e4d-46a5-9869-aa63e2cec0e3))
+    (pin "4" (uuid b695be22-5b0e-4767-92cd-d80bde75ae4a))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2565,8 +2565,8 @@
     (property "Datasheet" "~" (at 137.795 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03846fa9-7677-4938-b2e0-26bdb84064cb))
-    (pin "2" (uuid 38bc1ae0-cf77-4a04-ae70-b61c3bf74465))
+    (pin "1" (uuid d7fdfbc2-807b-4a0c-8a27-e5c18d73f231))
+    (pin "2" (uuid 6c5cda91-52e9-4353-99be-05a58bbeae7e))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2600,8 +2600,8 @@
     (property "Datasheet" "~" (at 340.995 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3cbc0d12-dac4-407c-b173-7a27f84586c8))
-    (pin "2" (uuid 06591ecf-8605-4cfa-b429-7ace6e96e3ef))
+    (pin "1" (uuid 38d86ca0-74cb-46c8-a537-d981adcbdb15))
+    (pin "2" (uuid 049af0e9-c9c3-4cd5-b2bf-08f51f44d141))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2635,10 +2635,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 282.575 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid f17fe762-5a66-48f8-bdb8-8e810e49ecc4))
-    (pin "2" (uuid e1919350-0c16-43c6-a2b0-476cc7dd6b18))
-    (pin "3" (uuid 2830a8cb-835a-4e05-b334-a5970bc0777a))
-    (pin "4" (uuid 0b5bfd8c-db7c-4578-831e-f08d937d371a))
+    (pin "1" (uuid 6bd59ce8-ff11-4b4f-92b6-9cb9d2cfd61c))
+    (pin "2" (uuid a9c5db35-eb16-4ccd-8a82-555f4edc34dd))
+    (pin "3" (uuid 1cbcef4a-1e72-4908-bf9f-44ff857f8161))
+    (pin "4" (uuid ad9343f8-7bf2-4874-87d8-ce802c186fd8))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2672,8 +2672,8 @@
     (property "Datasheet" "~" (at 259.715 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49ef7a45-cf33-4a09-b7c8-d4a64ca0fd15))
-    (pin "2" (uuid 82f4d58a-f65a-4961-82f6-0bd2fcd86a12))
+    (pin "1" (uuid feb44c8c-8989-4a28-8d51-568e70f817d3))
+    (pin "2" (uuid a0389d52-6b0b-42a1-ad12-f10ffdfe7b43))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2707,10 +2707,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 180.975 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 81bdf72e-d9dd-429a-b786-5d90d3941ba7))
-    (pin "2" (uuid 1efb1030-8f90-40dc-9756-7bf0239bff79))
-    (pin "3" (uuid c2575c98-53c5-4863-822b-5a17cea773d7))
-    (pin "4" (uuid c82fb416-c9e3-4b18-85ce-c180c1989ad2))
+    (pin "1" (uuid 111c1876-7888-40f5-ba91-a5a10433a82d))
+    (pin "2" (uuid 23eac9ac-2654-4877-af79-c66c2942a008))
+    (pin "3" (uuid b50f8eb8-53f7-4a11-b3a5-781adf355485))
+    (pin "4" (uuid b57f5199-6549-40af-99a5-0e9871c7b19c))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2744,8 +2744,8 @@
     (property "Datasheet" "~" (at 268.605 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d778762c-5b19-4f0b-99d2-f635c1f6eb98))
-    (pin "2" (uuid e1c0d771-347e-439a-939c-3d754d0ca589))
+    (pin "1" (uuid c2d1babd-ad0d-415f-b8c7-fc81ef2e14a2))
+    (pin "2" (uuid da98a5ab-9628-4dac-938e-1ac49a699f4d))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2779,8 +2779,8 @@
     (property "Datasheet" "~" (at 219.075 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0cdf4aec-3cba-423f-b5d9-d494eb64aaf9))
-    (pin "2" (uuid 062fc58d-4e24-4a6f-aaa6-9ec332ecb10f))
+    (pin "1" (uuid b68160c9-a98b-409c-87ba-2024f8d32210))
+    (pin "2" (uuid a71fbdb5-c6ab-48e2-84eb-882558dff9f1))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2814,10 +2814,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 323.215 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 6e9f4fc4-dc1a-4d01-be17-89ef7ac6342b))
-    (pin "2" (uuid e13b2341-b613-4acc-9117-15c7b3923d48))
-    (pin "3" (uuid 7a899b13-6af7-4e57-8e9c-31e3034758c4))
-    (pin "4" (uuid 3d0ccb81-8a11-4ddc-8a1c-c06b7233e9f9))
+    (pin "1" (uuid d5fdebec-7cd4-492f-81ed-6bbedbc9c896))
+    (pin "2" (uuid 4e35fab3-618c-4926-bfc6-f627baec613c))
+    (pin "3" (uuid 1b3ff21c-5a8a-4f4f-9a28-3983321d3324))
+    (pin "4" (uuid 38aafe69-74c3-464f-acd6-9c6f256c24a2))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2851,10 +2851,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 111.125 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid b8b21887-d2e6-4c11-bf4a-b58ee6e3cc05))
-    (pin "2" (uuid 77b58ea3-4643-4923-aa54-ff7aa55649e1))
-    (pin "3" (uuid 19f5b433-b1e1-4847-8ecd-087423d81cb6))
-    (pin "4" (uuid 28e471fb-83e5-47fd-9d26-420f19318195))
+    (pin "1" (uuid fbdcee71-695c-4800-82e5-48c161e94b02))
+    (pin "2" (uuid 09bb41e8-e28c-4bf5-afa1-a293590fc17a))
+    (pin "3" (uuid 51542c76-cec8-4c28-8d2e-ead006133b9e))
+    (pin "4" (uuid db1c0888-5937-4bab-b18f-ef9a11710d5e))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2888,8 +2888,8 @@
     (property "Datasheet" "~" (at 329.565 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 432a2d41-11cc-4cb8-a5a0-890e0b7da697))
-    (pin "2" (uuid a2513517-f413-42ff-b514-ebf9a9912620))
+    (pin "1" (uuid a75b9f3e-18c4-4a22-bc7f-0a0a9557f3d6))
+    (pin "2" (uuid c257b8e0-04ec-4cf1-9d47-cf253359a14b))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2923,8 +2923,8 @@
     (property "Datasheet" "~" (at 187.325 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e39eb4ba-b95a-4b18-b348-4e7fb136cf19))
-    (pin "2" (uuid fec696de-5e54-4fed-a42f-f21f876a7086))
+    (pin "1" (uuid 7d4a5085-f7aa-46e9-90ca-a91c5898834e))
+    (pin "2" (uuid 09b5b1f7-ac86-4233-a7aa-b14cf350ef06))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2958,8 +2958,8 @@
     (property "Datasheet" "~" (at 178.435 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b82a41e-11dd-4cf2-a4da-e32aadc33ef3))
-    (pin "2" (uuid c94c465b-60e9-445d-8bfa-05704daa5f2c))
+    (pin "1" (uuid b6aab916-9740-4ae3-9115-42dda81f0e35))
+    (pin "2" (uuid f902e5c4-dec5-4855-8bff-4086168a99b3))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2993,8 +2993,8 @@
     (property "Datasheet" "~" (at 300.355 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6fad948a-1dec-4500-9c30-09375ca47c03))
-    (pin "2" (uuid 6a6f2cc1-4cb1-473f-90e6-502e088aaecb))
+    (pin "1" (uuid 5603598e-d252-480e-ab82-075861bd8057))
+    (pin "2" (uuid 8c5b2ca2-3efe-438f-9fc4-f4f9a0353fa5))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3028,8 +3028,8 @@
     (property "Datasheet" "~" (at 227.965 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d22d5321-fb26-44fd-996d-aee7e821def0))
-    (pin "2" (uuid 215d1752-3303-4b40-acc1-8216b833b436))
+    (pin "1" (uuid 91986109-5497-4cd9-a928-215323725b87))
+    (pin "2" (uuid b979579a-7ae0-4028-bcd1-8ba51fd38a97))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3063,8 +3063,8 @@
     (property "Datasheet" "~" (at 126.365 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid df0172eb-203f-4ef8-a334-a89547db3435))
-    (pin "2" (uuid 36eba475-4f53-46b3-99ca-64844eba8cd8))
+    (pin "1" (uuid fa06a123-fe22-4a72-96bb-e5fcc54bdc90))
+    (pin "2" (uuid 057666ea-f578-4600-85c9-267e180048f7))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3098,10 +3098,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 108.585 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 2ce29f23-74a6-49b9-b551-5deef01f9689))
-    (pin "2" (uuid 53be180c-a65d-4552-9013-4b26cae27352))
-    (pin "3" (uuid f42bbc53-be5a-4567-a6c9-20f285064f4b))
-    (pin "4" (uuid 5cfad493-e44c-4c16-af6e-9c519ba52cd6))
+    (pin "1" (uuid af765a55-f2e2-4089-a89b-2a9973b4de3a))
+    (pin "2" (uuid c53c64aa-634c-4fe4-b6e8-3dfdbdaac80f))
+    (pin "3" (uuid d178c1c4-4221-4fe3-9dbf-636b3009486d))
+    (pin "4" (uuid 457a70fd-1f40-4160-bc72-fef5553eaf3a))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3135,10 +3135,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 140.335 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 4a3de821-0fa9-4910-9313-8dee9fa77051))
-    (pin "2" (uuid fb7dc2ca-d7cf-498f-b7b7-20f0d6778350))
-    (pin "3" (uuid 27ed0d6b-2b9d-4ee7-af15-571388e8f5c7))
-    (pin "4" (uuid a12b7e0f-3bca-4958-a8ba-2c3df5ed808e))
+    (pin "1" (uuid 0a31a0bd-c870-4dc8-a2d9-da58a9fbdf4c))
+    (pin "2" (uuid 38be3448-2926-46b8-9a0f-7035adb7b5d7))
+    (pin "3" (uuid bdd374cc-d8f1-41c5-a781-7276ad5aa569))
+    (pin "4" (uuid 2224e191-70ba-435b-8067-948748c4b16d))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3172,8 +3172,8 @@
     (property "Datasheet" "~" (at 106.045 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 761b1ee2-068c-4e46-b12d-daaa2165f04b))
-    (pin "2" (uuid 6c26c877-f949-4d4c-8f2b-7de7320a488c))
+    (pin "1" (uuid 26cbb9c7-554c-4a23-b5eb-6857e9fd2b52))
+    (pin "2" (uuid 22d41f45-7c70-43bd-af52-aa7e4971e59f))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3207,10 +3207,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 212.725 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid ba2285bd-58b5-4bb1-942c-fcc2a035a991))
-    (pin "2" (uuid 84e42401-b1d0-4b3d-b444-a5474d835e8c))
-    (pin "3" (uuid 84bb9f88-2835-4d12-b27e-dd346e78b0a2))
-    (pin "4" (uuid fe75ee34-6958-4c0f-9ed4-1a39400e01a1))
+    (pin "1" (uuid fb21bfd3-e6d3-4a2b-a791-4a511b4394dc))
+    (pin "2" (uuid 2c69b566-2141-4933-b6ed-25753d4454a1))
+    (pin "3" (uuid a6939d44-1b97-438b-b766-79ed932cbbc3))
+    (pin "4" (uuid 706492d3-5f22-4b34-ba0b-a7d22a368de2))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3244,10 +3244,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 253.365 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 73171ca9-ccb7-49bf-85fc-46d442ca1da6))
-    (pin "2" (uuid 6b7d15ce-369f-40c5-9c33-622fed2c47fa))
-    (pin "3" (uuid 32e717b8-d331-48d5-b3a8-efe7b7ad51e7))
-    (pin "4" (uuid f61e156b-bb54-47a2-a532-a8432e7e2e0b))
+    (pin "1" (uuid b57d8433-de7a-4523-b736-05fa86b822e8))
+    (pin "2" (uuid e35bf999-edfe-4378-a0da-2cbd94aee5ae))
+    (pin "3" (uuid bae01ecf-3af5-496a-b9b9-d54467d108e3))
+    (pin "4" (uuid c6ef6233-d4aa-4d08-af19-cea4c06bfe94))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3281,8 +3281,8 @@
     (property "Datasheet" "~" (at 309.245 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 52479e11-9a37-451a-9bad-11328c896139))
-    (pin "2" (uuid 844a236c-b650-4700-b475-c5c06a0628fb))
+    (pin "1" (uuid 28c293b3-6087-43a9-90fa-01d94ce47898))
+    (pin "2" (uuid eb12dfed-ab55-4e41-8a63-333e7dd71499))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3316,10 +3316,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 273.685 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid bbba5b03-67a7-403c-9113-c4a98520c24c))
-    (pin "2" (uuid 14b79a0a-a267-42a9-ac7e-c2586b8374d9))
-    (pin "3" (uuid f533fcd5-b140-4aeb-9c38-ca6f61e5bc5f))
-    (pin "4" (uuid 5c61571c-8130-4f12-9607-8633f9b7ad37))
+    (pin "1" (uuid ed144dbe-eab8-4267-accf-17b55bb2693d))
+    (pin "2" (uuid deeb614d-15ab-4ff8-a57f-9aba30a34228))
+    (pin "3" (uuid c237b14d-605b-4ab6-9afe-f2e249a6ec82))
+    (pin "4" (uuid 003614ed-6fd8-458b-a1d2-f9296da24232))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3353,7 +3353,7 @@
     (property "Datasheet" "" (at 85.725 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b16ff086-2abc-4f62-8457-10236caf66a0))
+    (pin "1" (uuid 9a04d3c9-91f3-444c-9c94-18a3f00a66ef))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3387,10 +3387,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 201.295 158.115 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 0462a3b3-e582-4f9a-a257-df7f2fbc9eae))
-    (pin "2" (uuid 37492f0f-6f7f-404b-9906-f42b35ab948b))
-    (pin "3" (uuid a7fc4e43-aa9a-48d7-80b4-d4419487dda2))
-    (pin "4" (uuid d01efa05-fd50-4982-9424-8467aaccea3b))
+    (pin "1" (uuid 59f78df2-409c-432d-95e7-1f3c59eceecc))
+    (pin "2" (uuid d909b255-750d-44d0-8543-9561c762c75b))
+    (pin "3" (uuid a3d30dc1-52c7-45b8-9ec3-4e4fae489ce7))
+    (pin "4" (uuid b6f7745a-856c-4de0-8d0b-96274894f848))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3424,10 +3424,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 149.225 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 3f859ca9-a513-459a-914b-9f3405b89ed8))
-    (pin "2" (uuid e51588b1-f680-4db5-96b7-f6ba6aeed2b5))
-    (pin "3" (uuid fa21bfa4-d8b8-4e48-be74-69d2b39a56fb))
-    (pin "4" (uuid fa24c6d9-1c70-46ef-9a9e-b21452fafc9e))
+    (pin "1" (uuid 5e8cedfb-40cd-4f16-867c-8dab79e53f39))
+    (pin "2" (uuid 546d4f42-4a69-4695-a701-45ece702d650))
+    (pin "3" (uuid 18df7633-597f-4144-b4da-79b1fcad073f))
+    (pin "4" (uuid 90b8d99d-881d-4a99-9739-3243172dfdb2))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3461,10 +3461,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 151.765 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 818e2785-acd1-402a-9434-0cef0f237e22))
-    (pin "2" (uuid a22d0a5f-f736-467b-8dd7-195073380916))
-    (pin "3" (uuid 80aec9ff-a9c8-4135-a830-662a3544ada8))
-    (pin "4" (uuid 8c009f0a-3875-47a4-8f37-fd396348aa81))
+    (pin "1" (uuid e79e7e46-3e57-47b5-97de-4f97dacebe54))
+    (pin "2" (uuid f849a732-8f12-4acd-8cb1-1bd11d9dd997))
+    (pin "3" (uuid e40da1a8-6c6c-4662-9422-18f5a08c01f9))
+    (pin "4" (uuid bf7b0925-0468-4ec0-be95-00ed8d584365))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3498,8 +3498,8 @@
     (property "Datasheet" "~" (at 349.885 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cd276268-5499-4136-bc48-83f9660c1b3c))
-    (pin "2" (uuid 3328c3aa-671c-4544-be4b-0bce714a8bde))
+    (pin "1" (uuid 50680b8e-724e-4d1f-9177-2a3d570695fc))
+    (pin "2" (uuid e3960619-1b64-45fb-aa56-71bb32896f28))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"

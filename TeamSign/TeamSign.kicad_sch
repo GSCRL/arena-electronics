@@ -2305,9 +2305,9 @@
     (property "Datasheet" "~" (at 71.755 106.426 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36b7a012-6c00-4917-b4f5-164f0e682367))
-    (pin "2" (uuid f075f8d9-f7a3-46c9-b027-199dfd0feea4))
-    (pin "3" (uuid 1c8783da-1f38-4877-bebd-d4720ce528e5))
+    (pin "1" (uuid 3acd271a-6fe6-4011-b76a-e618a27fabcc))
+    (pin "2" (uuid e3d05766-f985-41ba-9b6b-9028fb5861f5))
+    (pin "3" (uuid 6573333d-d524-43d2-acc4-9e044ccb1c92))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2332,7 +2332,7 @@
     (property "Datasheet" "" (at 98.425 139.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 62d27d06-e83c-4bd0-9949-d7979b9304fa))
+    (pin "1" (uuid bc17c3d0-cc88-4b89-b6cb-4c2f22473d67))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2357,8 +2357,8 @@
     (property "Datasheet" "~" (at 255.27 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f86ff532-3143-4d12-9874-267d92998c2e))
-    (pin "2" (uuid bb4a3c37-5aaa-4189-b6f2-7e54e1b33da4))
+    (pin "1" (uuid 9ada8775-4f72-4f42-8c38-91bdb1c6447e))
+    (pin "2" (uuid f94100dc-8550-4c9a-b32c-09517551866a))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2392,7 +2392,7 @@
     (property "Datasheet" "" (at 363.22 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2dfe5538-aeb7-4fa7-b4b1-82f50d7be88c))
+    (pin "1" (uuid f4d63721-a1dd-48e8-91c7-762041bce768))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2417,7 +2417,7 @@
     (property "Datasheet" "" (at 31.115 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4b5200a-7e03-426e-9a5a-cbd40b9a704b))
+    (pin "1" (uuid 727b2bae-72b5-43e4-a7f6-b1ca7a885b53))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2445,8 +2445,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC1206KRX7R9BB104_C82601.html" (at 83.185 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e226029a-5871-4adc-9488-8d6194be313a))
-    (pin "2" (uuid d28ac905-8623-4d12-9821-8211b218c6f7))
+    (pin "1" (uuid 79d95b69-bbc2-4a5d-8f9c-af51a318e4e9))
+    (pin "2" (uuid 46857a2b-1333-42f8-8dba-af87c7aab773))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2495,7 +2495,7 @@
     (property "Datasheet" "" (at 240.03 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid af966206-1dfd-44a1-a9f5-21f68da7c8c5))
+    (pin "1" (uuid 583bd14a-ce08-4439-a2e0-8aca499035ea))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2523,8 +2523,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-VT1V220M0505_C239256.html" (at 111.76 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bea4af56-7189-44f6-b909-41098a6e5258))
-    (pin "2" (uuid dc929430-b812-43da-a37f-4119740d3c21))
+    (pin "1" (uuid 11b86ee9-e023-435b-8fbe-f71b2d178be6))
+    (pin "2" (uuid c28f43f8-1b14-4e99-acc5-943b80ea0ec5))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2552,12 +2552,12 @@
     (property "Note" "This is actually a TPS563201, but we're using the footprint for sanity.  Yay!" (at 61.595 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3716277f-0b11-4396-af3c-1a694eebb3e7))
-    (pin "2" (uuid 300928b5-ccac-4eb4-ae0e-fd90dace6a26))
-    (pin "3" (uuid 5d05d4be-641f-4225-8479-ab6c837b2150))
-    (pin "4" (uuid 618c6073-afd3-471a-a916-5be5ad8cb9aa))
-    (pin "5" (uuid 02617e8d-8d23-4ac4-8e24-99c6f4164426))
-    (pin "6" (uuid b9260819-f626-4921-a9c8-9feaeb6974de))
+    (pin "1" (uuid 90b8d1a3-e2ec-4bfd-9996-aee071c2740f))
+    (pin "2" (uuid a21ab686-dc85-4126-bfe9-3ddd2ce61cc2))
+    (pin "3" (uuid c1645264-9b4e-49de-a5bc-4e1286f20b6d))
+    (pin "4" (uuid ffe484e6-898c-4efe-aa89-59d89e247227))
+    (pin "5" (uuid 68486556-dd44-4b2b-9df3-aa644329c433))
+    (pin "6" (uuid 7a7619ca-fb66-470e-b100-61908a3b5e48))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2582,7 +2582,7 @@
     (property "Datasheet" "" (at 19.05 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a58a16a2-1902-4032-ba87-2ab8760dce9d))
+    (pin "1" (uuid c3851d55-e737-4550-979a-693e81986160))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2607,7 +2607,7 @@
     (property "Datasheet" "" (at 363.855 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cc711605-10a2-48e2-bf7f-5a6f6552ddb2))
+    (pin "1" (uuid 33830e76-9c1a-4559-941b-6364a9788b7a))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2632,10 +2632,10 @@
     (property "Datasheet" "http://www.normandled.com/upload/201810/SK6812%20SIDE-A%20LED%20Datasheet.pdf" (at 381.635 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 83a25048-05b0-4304-b02c-d47472cb9632))
-    (pin "2" (uuid 4f73883c-224f-4540-8ce7-4f742cd4a505))
-    (pin "3" (uuid 65ca14a6-2dc8-4ee6-a9e7-1f6ed9807955))
-    (pin "4" (uuid 7e7ecf3a-0585-4488-9b3e-d00cbe8d0f13))
+    (pin "1" (uuid fca69eb7-c2a3-4206-8a90-6dc567f10900))
+    (pin "2" (uuid b5653f99-3468-4e7a-98c6-af4e4e1d77a2))
+    (pin "3" (uuid 41779b01-6752-4ee3-b91e-bda79addf108))
+    (pin "4" (uuid a6ea6cd6-3029-4ea5-b930-f2cc5dbb87c4))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2663,8 +2663,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG05BTC1002_C406725.html" (at 97.155 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a98bc0eb-4bcc-4f95-afc6-eb926b21c85b))
-    (pin "2" (uuid 02faffef-1a27-455f-8921-3c2568cfdce6))
+    (pin "1" (uuid f356b768-1bf5-4ad0-9a51-8a335b136585))
+    (pin "2" (uuid 693909b8-5eb3-4ab1-98e1-bbd4c359d480))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2713,7 +2713,7 @@
     (property "Datasheet" "" (at 379.73 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c85f836-9c34-403f-9d8e-6a45e2f8f229))
+    (pin "1" (uuid 51e74214-c3ad-4e86-a141-594e4e18db99))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2738,10 +2738,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 187.96 216.535 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 7ba1d73b-bd58-4d1e-b807-d4ed645b6a56))
-    (pin "2" (uuid f9f25acc-cafb-4e1a-9f3b-36c1b3c9778a))
-    (pin "3" (uuid 341ca0fd-6f32-4dc5-8d50-8664e19e10f2))
-    (pin "4" (uuid 5d3cf191-4376-4cd4-b98b-46a79eb65e9b))
+    (pin "1" (uuid 838fa18f-bcfa-4239-9d55-d937ed02c662))
+    (pin "2" (uuid 4ed95518-2acc-4e3b-a90e-b2adf57da0bc))
+    (pin "3" (uuid 6008dd10-e213-4fc1-a678-c2b21ba42687))
+    (pin "4" (uuid 0708a531-179c-446f-80ba-98efd1efa036))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2778,8 +2778,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG05BTC1002_C406725.html" (at 379.73 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b546475d-e1bb-4155-944e-4751bfb42ebb))
-    (pin "2" (uuid a38460af-ae76-4b13-bf8f-470741ba4f4c))
+    (pin "1" (uuid 4638b294-beb8-464d-b98d-703ad64cf4d2))
+    (pin "2" (uuid 46b50350-78bc-4ab7-b801-3fad910a476d))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2807,8 +2807,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B104K101NT_C110255.html" (at 367.665 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1fb3a36-3d2d-441c-b770-a2efebb4187f))
-    (pin "2" (uuid 2c0ef63d-6f50-4ac5-a91f-42f909364b42))
+    (pin "1" (uuid 88d3f5cc-f8f6-461a-9cd1-2bc7d3e11254))
+    (pin "2" (uuid 117c51c4-9d35-4340-87fc-0e01d433d4f7))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2833,7 +2833,7 @@
     (property "Datasheet" "" (at 379.095 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1a6b5ba8-b120-4450-8117-002984141871))
+    (pin "1" (uuid 5b302740-de8e-4882-976b-7c849124dc33))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2858,10 +2858,10 @@
     (property "Datasheet" "http://www.normandled.com/upload/201810/SK6812%20SIDE-A%20LED%20Datasheet.pdf" (at 358.775 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 3c5eae26-6b90-49b8-8830-b74704baf418))
-    (pin "2" (uuid 7a12c4f3-e239-4a82-95e0-89d8cbaa3f2f))
-    (pin "3" (uuid 63dddf2b-60fe-4c77-905a-f7dde9db7273))
-    (pin "4" (uuid 6ea57f23-2b04-4f55-88b0-87eda77de6e2))
+    (pin "1" (uuid e68582eb-df26-49e0-8977-c4bdd5e8727f))
+    (pin "2" (uuid cecb34bd-fd5c-4397-aa9d-05a18bd95f08))
+    (pin "3" (uuid cea1099f-06a7-42d0-942a-0ebae83cde79))
+    (pin "4" (uuid eb41f13d-9a97-48dc-bd1f-05e00bf48df7))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2886,7 +2886,7 @@
     (property "Datasheet" "" (at 80.01 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 67aa191a-25db-4e18-ac75-f301d0a0ef67))
+    (pin "1" (uuid 2218de1d-5605-412b-93ad-76449d03a2c9))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2911,10 +2911,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 208.28 216.535 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid aee00b79-a127-4e05-89be-25df47678740))
-    (pin "2" (uuid fed5af24-edd9-4719-95f8-3151c50e2e1e))
-    (pin "3" (uuid ee9a964b-9a90-47dc-a090-73a0916f1fea))
-    (pin "4" (uuid 096f5f16-28f2-4844-a052-8a4d70ef5ab7))
+    (pin "1" (uuid 3b1f2d7b-8086-403d-83ba-96874992b482))
+    (pin "2" (uuid 4a1f83d4-4939-49dc-87d0-14d9f5a71e0d))
+    (pin "3" (uuid 364e6bb7-41bf-4b06-aa8a-5bde2920f88f))
+    (pin "4" (uuid ab8036af-9b26-453f-a0b2-049a3c2e408c))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2948,7 +2948,7 @@
     (property "Datasheet" "" (at 196.85 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5e632faa-0053-48b7-b024-b0af356e2de2))
+    (pin "1" (uuid 48be7d9e-1f4b-4c87-b340-b1020d473190))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -2973,10 +2973,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 228.6 216.535 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid b7656415-57d6-496b-9f43-a628ce591708))
-    (pin "2" (uuid 6c48b9a9-7937-4ca1-8f3f-f7b66851c6f3))
-    (pin "3" (uuid 8557e8af-2481-432f-b72e-a6a6ed0bd5db))
-    (pin "4" (uuid 9af8aecd-b5a7-4209-8547-ebc55d72292f))
+    (pin "1" (uuid d628a250-548c-4787-9b30-183978a7aaf8))
+    (pin "2" (uuid c087965c-67ef-459d-a178-68addf444473))
+    (pin "3" (uuid f6bd4685-41ad-411f-bb99-80c605c42f02))
+    (pin "4" (uuid 7c67ac51-4baf-431e-9a33-552ea375171e))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3013,8 +3013,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.html" (at 33.655 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6aedf173-49f5-49e8-a4e1-ae9ce8c20cce))
-    (pin "2" (uuid 5a15f4d4-83d9-4bb3-b121-b04a9da6f009))
+    (pin "1" (uuid ea19e28a-dc7f-448f-b3a9-357ec56fc538))
+    (pin "2" (uuid 7e8ba2f3-9b75-45a6-b27f-d3e86b4f364f))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3039,7 +3039,7 @@
     (property "Datasheet" "" (at 185.42 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c1871fd-2c67-45ba-8418-62d3e8c70418))
+    (pin "1" (uuid add97949-e480-46f4-a444-00ad8e02a5dd))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3064,7 +3064,7 @@
     (property "Datasheet" "" (at 283.845 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6759c91-a203-43c4-842f-8d970b252df3))
+    (pin "1" (uuid 27408fca-f650-4597-94a3-dcf8b89eae66))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3092,8 +3092,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B104K101NT_C110255.html" (at 344.805 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06bc5180-5640-4935-97b6-4415f1e22c18))
-    (pin "2" (uuid c2fe3507-d3dd-4a22-80da-1f607b38bfc3))
+    (pin "1" (uuid 5e5719d3-47bb-433c-bb1f-3837912ea5f4))
+    (pin "2" (uuid f923ab8a-4c75-47c2-a4d9-76f969dec89b))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3121,8 +3121,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG05BTC1002_C406725.html" (at 48.26 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a7f80214-f393-4903-bf1a-1443310e1036))
-    (pin "2" (uuid 987709e8-3bff-472d-9055-6447939b0f90))
+    (pin "1" (uuid 8df52318-8788-49d3-9dc3-cbd308ba171e))
+    (pin "2" (uuid 47560092-68fb-4eed-97f8-8da40d3002ee))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3147,14 +3147,14 @@
     (property "Datasheet" "~" (at 34.925 103.505 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db259330-00cb-448c-b330-31c359f4fefd))
-    (pin "2" (uuid 07638885-c640-41f7-ac5a-6f3a52e1415f))
-    (pin "3" (uuid 837dbe2c-41ea-46e8-8d19-1ff6c876b173))
-    (pin "4" (uuid 6116f358-3e1d-4589-ac64-dc067cd74918))
-    (pin "5" (uuid 0a18f292-d074-49c2-bcc8-43dd91ac759b))
-    (pin "6" (uuid 362585d2-6334-4fef-990c-828594ab41d4))
-    (pin "7" (uuid 7dde15a0-16cd-432c-a329-660834658af7))
-    (pin "8" (uuid 6b3da81a-9063-4710-aaa4-ca184120b860))
+    (pin "1" (uuid b3c34550-d210-4130-8fb7-89650592deff))
+    (pin "2" (uuid d23662d7-7aa9-4cca-b577-7b013b096bf6))
+    (pin "3" (uuid 1c5beeda-00a4-4095-83c1-3185a787571f))
+    (pin "4" (uuid 1c721251-12d6-46a0-b3c0-f3e6d241d009))
+    (pin "5" (uuid f54b177e-39a3-484f-9975-0ec7d04cfe59))
+    (pin "6" (uuid 9e5935b0-2318-478e-b679-c60f33233d1a))
+    (pin "7" (uuid aeb7cc88-e35a-4758-85ad-fd208ddf9226))
+    (pin "8" (uuid 173dfb20-f4fa-4ab2-9f93-491dd12ecf94))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3182,8 +3182,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Power-Inductors_BOURNS-SRN8040-3R3Y_C780188.html" (at 93.345 52.705 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00d8f48e-8a9c-4c9f-83a4-05c8a24bcf41))
-    (pin "2" (uuid 8906b635-69e6-47e5-b851-d2e05c65fa2e))
+    (pin "1" (uuid 698f2fae-17b2-4404-8892-77383208aa1b))
+    (pin "2" (uuid e21dd271-bde0-4371-99c0-f58b20eebf05))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3211,8 +3211,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RT0805BRD0754K9L_C865555.html" (at 97.155 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 07852340-26fb-40a6-b4fe-d40f48052ef7))
-    (pin "2" (uuid 835b3e21-8fa9-48ed-b175-169e8f607a56))
+    (pin "1" (uuid 1e976c76-b9da-45b7-aece-a61d78c4617a))
+    (pin "2" (uuid ea94de1c-9d15-4460-a9ae-651868ac5fb0))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3237,7 +3237,7 @@
     (property "Datasheet" "" (at 196.85 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0ccbee5b-67d9-4b62-8cb6-0dd4580df46a))
+    (pin "1" (uuid 7f4e7fc8-30f1-49f7-bc55-258a4aa47590))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3265,8 +3265,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG05BTC1002_C406725.html" (at 379.095 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 871dd4c8-886f-416a-893d-7b85034424b5))
-    (pin "2" (uuid 2d283948-5362-49f8-beb7-6f3c9d03c5b8))
+    (pin "1" (uuid 89261690-2ee1-4e1b-8a80-e1e2a522e655))
+    (pin "2" (uuid e1cd8c74-39bb-4bbd-bfcf-14bf45bb672e))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3291,10 +3291,10 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" (at 248.92 216.535 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 0779021f-4c9d-4024-92fb-e632738d9cfd))
-    (pin "2" (uuid a2739126-c383-4448-9585-59c58eeb8b20))
-    (pin "3" (uuid 694cbb88-1ad0-4c1e-b28d-a63e98052bcc))
-    (pin "4" (uuid cefa7b0d-53d3-407f-8ea5-6656f2dcecd6))
+    (pin "1" (uuid 564af9b2-4b09-4e6c-8669-33416a16cea5))
+    (pin "2" (uuid 1b35298d-8603-4d04-91d4-34e3a53ccd4d))
+    (pin "3" (uuid df74781b-5b34-4115-948e-94668d42c794))
+    (pin "4" (uuid 71170314-7419-4af1-ba7f-499b754021f1))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3328,8 +3328,8 @@
     (property "Datasheet" "~" (at 234.95 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abf5c133-2ab2-4bf2-a26e-4424e4d9bc49))
-    (pin "2" (uuid a11f5250-39a7-437e-8ec9-d976c37649cd))
+    (pin "1" (uuid 8f27674f-7393-462f-8635-948be294f7a5))
+    (pin "2" (uuid 8502e91d-95a4-490d-9ee3-b55aed0149b3))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3363,9 +3363,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 368.935 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid b79320b0-dcef-4e29-b4ed-a538042db9d5))
-    (pin "2" (uuid 0fe76646-95aa-4fc6-9283-c71df2929884))
-    (pin "3" (uuid 47745105-770c-492c-ba12-5d3ce4cd9a66))
+    (pin "1" (uuid d70bd2d9-c0dc-42e7-9803-9c96e3425a4a))
+    (pin "2" (uuid 0c9e1b4a-6279-4548-8da3-08a986c522d2))
+    (pin "3" (uuid 817b527a-8ed2-4ce5-9251-2dccc5109a5a))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3390,7 +3390,7 @@
     (property "Datasheet" "" (at 22.225 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c3fe6a4a-8b03-40d8-9dca-646a1f2ee835))
+    (pin "1" (uuid e82a6443-30cf-4a94-9457-52e9cd28fbd0))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3442,8 +3442,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B104K101NT_C110255.html" (at 321.945 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f2164aee-1447-4b8e-a113-36a5a51f6aa7))
-    (pin "2" (uuid dcca8e34-50d5-4b4c-8e57-b242bb896fba))
+    (pin "1" (uuid 12300a08-4b16-47e5-b19d-1dfaecfc046f))
+    (pin "2" (uuid db13fec2-fa2a-4b8e-b0b6-c4895645d190))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3471,8 +3471,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B104K101NT_C110255.html" (at 390.525 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38ee7b6c-105e-4f6c-b4c0-769742b43814))
-    (pin "2" (uuid c9466515-3cae-4b75-8b34-c75872ea4e90))
+    (pin "1" (uuid 34d31fa7-20cb-4522-9845-d0093355c757))
+    (pin "2" (uuid ecac6e7a-3809-4b1a-ac6f-cbc8f7a1a7bb))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3500,8 +3500,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG05BTC1002_C406725.html" (at 363.855 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 138d4da0-a0cb-46cc-a221-3f98752ec6ac))
-    (pin "2" (uuid 86b0c5a3-57d1-4eae-84e4-21af4ba09b2f))
+    (pin "1" (uuid 58f5b70a-8f9d-493e-93e1-d4e822eec749))
+    (pin "2" (uuid e255c09d-203c-49cb-a657-179b028c7be4))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3550,10 +3550,10 @@
     (property "Datasheet" "http://www.normandled.com/upload/201810/SK6812%20SIDE-A%20LED%20Datasheet.pdf" (at 313.055 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid ae7340a6-ce07-4a4d-b64a-3a468e631dab))
-    (pin "2" (uuid 302da92e-1d3b-45ff-8174-ceded2d69851))
-    (pin "3" (uuid 52b513ce-b78c-4a2a-ba40-c06be300bd58))
-    (pin "4" (uuid 25d44dda-b51e-4e04-9544-4c8a88a33c6e))
+    (pin "1" (uuid 5e45f144-a6a5-4036-ac4b-b715cd7c03fb))
+    (pin "2" (uuid 2f2dc742-c30f-4d81-906c-b5c0b53f5949))
+    (pin "3" (uuid 77666dbd-1e5c-4084-8b1e-3ec878576344))
+    (pin "4" (uuid 073a4b9b-9839-4d8b-b5f6-a68a7a92ff49))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3578,7 +3578,7 @@
     (property "Datasheet" "" (at 207.645 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fbc7f18-a1bf-4ec4-9dcd-634f3e4b2b2a))
+    (pin "1" (uuid 5b11e7d5-7275-4a4f-9497-39c3d963e4b6))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3606,8 +3606,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.html" (at 28.575 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cfbe5b31-b69e-427c-a7aa-73e2cb9376ed))
-    (pin "2" (uuid 4bc74972-8f92-4106-a609-efcafde18a4e))
+    (pin "1" (uuid da2769de-fd01-45e2-a91a-669ed13442da))
+    (pin "2" (uuid 03c757f8-ce95-4f09-8208-a79be91f912f))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3638,8 +3638,8 @@
     (property "Sim.Enable" "0" (at 187.325 272.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3f10a594-7445-49dc-8a33-3dd9c97237f2))
-    (pin "2" (uuid fe050723-612c-4ec0-83c6-169418b238b9))
+    (pin "1" (uuid 30bcd597-acde-44b5-b6f3-7a1f44fdf76d))
+    (pin "2" (uuid 7f4a93b5-1479-45c5-85af-8e613dc31f08))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3667,8 +3667,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B104K101NT_C110255.html" (at 276.225 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e219adf9-38c5-4dea-af54-1b3514973a5c))
-    (pin "2" (uuid 0c5c6060-977b-49f5-b3a3-e7835781fe6a))
+    (pin "1" (uuid ea782190-9c31-4196-b49b-a787ccf12255))
+    (pin "2" (uuid 1ff56030-9bed-499b-a521-61ef6dffa7cd))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3696,8 +3696,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG05BTC1002_C406725.html" (at 363.22 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4d2c86f4-cbe7-45b0-a32a-d55c19942fbb))
-    (pin "2" (uuid f026b17c-9194-49c5-af44-f419c680f078))
+    (pin "1" (uuid cb05aa65-a811-4ebe-ba8f-b2a5f3c3d1be))
+    (pin "2" (uuid 442c9757-2545-4ca4-90b2-d6cb2102929e))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3725,8 +3725,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B104K101NT_C110255.html" (at 253.365 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ea18ef4-cc9d-48d7-9b8e-39d19ac6648d))
-    (pin "2" (uuid 7f0e9141-1eb7-439b-8593-ea6debf419f3))
+    (pin "1" (uuid 0b19ada5-329c-45e5-9883-a0a3503a0dba))
+    (pin "2" (uuid e9c03fd3-ae69-428e-91ca-fa4625544394))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3751,8 +3751,8 @@
     (property "Datasheet" "~" (at 194.31 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid aa5ac282-1ad7-45e5-bfaa-4c11d2e936cb))
-    (pin "2" (uuid 848b59f0-74ac-4213-a6f6-e6bc6d84b7bd))
+    (pin "1" (uuid ff617eca-c77e-49fe-b20e-71a79b0e35cf))
+    (pin "2" (uuid ac562d4d-999f-468a-9146-eb167ed8aa7f))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3786,7 +3786,7 @@
     (property "Datasheet" "" (at 185.42 193.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce442f0a-cb33-4df1-a89d-aa5456f3fbaf))
+    (pin "1" (uuid cca2f510-c1a8-4033-a1aa-a0d910140570))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3811,7 +3811,7 @@
     (property "Datasheet" "" (at 74.295 245.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6a0205ee-e0cf-4d70-bf4f-a9832dec6981))
+    (pin "1" (uuid ec530efd-a5bb-4b93-86bb-6345c16e88d8))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3836,7 +3836,7 @@
     (property "Datasheet" "" (at 283.845 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 251f5b7f-6da4-4fb5-bd1f-921f6a5d3d47))
+    (pin "1" (uuid 93ef3a9e-d21a-478b-8e76-8b3bae86d22f))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3861,7 +3861,7 @@
     (property "Datasheet" "" (at 83.185 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7161eb9-42a3-442f-b864-45c16c644c57))
+    (pin "1" (uuid 678d9606-edc9-4e4d-8bad-631662fbdbbe))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3886,7 +3886,7 @@
     (property "Datasheet" "" (at 97.155 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eeda4b0c-86f8-45b4-9765-c22e47204575))
+    (pin "1" (uuid 59574614-65ec-44f6-9479-0328f26411b8))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3911,10 +3911,10 @@
     (property "Datasheet" "http://www.normandled.com/upload/201810/SK6812%20SIDE-A%20LED%20Datasheet.pdf" (at 290.195 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 284b26d7-d112-438f-906c-e1257966a542))
-    (pin "2" (uuid 2722e236-024a-4a1d-8e73-fb3dcf4f5427))
-    (pin "3" (uuid 55a99f8d-3a86-4d2e-a2c6-0c8af193611f))
-    (pin "4" (uuid f671007b-4f6c-4392-bec0-7fc1cafed868))
+    (pin "1" (uuid f36eac31-2092-4121-8ef1-c11c9e2483df))
+    (pin "2" (uuid 50eae08e-0879-4b36-afe1-d381a10fa986))
+    (pin "3" (uuid f81704f7-8a00-4f47-a53a-c829ee93f734))
+    (pin "4" (uuid 7b529832-e960-43fe-a465-1c1faecc8649))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3939,10 +3939,10 @@
     (property "Datasheet" "http://www.normandled.com/upload/201810/SK6812%20SIDE-A%20LED%20Datasheet.pdf" (at 244.475 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 01756268-1d6d-40a0-b312-d991f4c8cedb))
-    (pin "2" (uuid c78e1cb4-c2de-4af3-8b1b-a9dc5b69022e))
-    (pin "3" (uuid d4825e01-6a13-4791-b389-e0ca4c8db5b2))
-    (pin "4" (uuid d45c63db-6158-4904-9ee9-6ed2859cb609))
+    (pin "1" (uuid a9eb2be6-313b-4758-81d4-baeeb7e3d47f))
+    (pin "2" (uuid 16868513-1192-4c68-916f-652328ee93a8))
+    (pin "3" (uuid d8c5c15c-1961-489a-8037-c51abc10cdc2))
+    (pin "4" (uuid c80cc069-5fb1-42b0-bdcd-e7efbdb4cb4b))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -3967,44 +3967,44 @@
     (property "Datasheet" "" (at 50.165 192.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 15f13be9-3287-44f5-8635-f4c5536534ff))
-    (pin "10" (uuid bfc8065d-dcbc-45be-a659-0c29d6abac33))
-    (pin "11" (uuid 6faa873f-a199-4840-94e5-977d4286eb08))
-    (pin "12" (uuid 8725a1c4-6ccc-4305-93f6-287a69cdf8fd))
-    (pin "13" (uuid a7135d90-bd0b-4382-988e-387c78a52dca))
-    (pin "14" (uuid cb808006-7ec0-40e7-85d9-c0bdf4081e32))
-    (pin "15" (uuid 8ce60880-a36d-41ca-bb23-01abb82489cb))
-    (pin "16" (uuid 5a3d257e-2330-4095-92de-92b1499a766a))
-    (pin "17" (uuid 687e2e1f-4d3d-4499-a1c0-76a9f4892078))
-    (pin "18" (uuid abcdb18d-4783-42cb-8c08-1111fe3fb96f))
-    (pin "19" (uuid 6dc1be12-cb85-4145-a883-fca3d05d0bd2))
-    (pin "2" (uuid ad73ade8-c549-4498-8b59-3ab1ca149835))
-    (pin "20" (uuid bed09f01-b185-418b-804b-89aa244f8c2c))
-    (pin "21" (uuid 760525fa-07d6-4332-85f3-98af5faeabf0))
-    (pin "22" (uuid fcf9b6d8-7037-4d46-8212-e69d27f3c8a2))
-    (pin "23" (uuid f16578b5-fba8-40db-bdcc-207c9d5208ff))
-    (pin "24" (uuid 9a1496c9-5236-457b-a830-6eccc3969d28))
-    (pin "25" (uuid a08deea0-dede-4914-a275-52d7f066b45e))
-    (pin "26" (uuid bc9758b9-6bbb-46a4-bf3d-59463b4468ab))
-    (pin "27" (uuid 350f0a1b-676e-49f5-bde8-adbc37a031ab))
-    (pin "28" (uuid 28162201-0f4b-4a4b-8a86-6bef54e39c3a))
-    (pin "29" (uuid caa6dcee-a1ee-4b6b-b364-84e42ecfe06a))
-    (pin "3" (uuid 10ac5dd0-eb20-4774-9889-accfc336f563))
-    (pin "30" (uuid 6b142f09-0eef-438b-b4f6-5df3188a8034))
-    (pin "31" (uuid e6ad95bc-17b5-4608-a0a2-0515a597b83d))
-    (pin "32" (uuid f3550ac7-a20d-470f-a4a6-e79921560574))
-    (pin "33" (uuid 16d263b9-a863-41e6-83a9-60ff25312ad3))
-    (pin "34" (uuid ea308ad4-1e67-44d8-99da-ea657cded5d9))
-    (pin "35" (uuid df0e1f32-6ff0-43ed-95ee-92bc97303af3))
-    (pin "36" (uuid 0b39b20c-bccb-4586-b939-cff03aad45ba))
-    (pin "37" (uuid 26c8ec93-f65c-4193-ad29-029d17e68b8e))
-    (pin "38" (uuid c469aea4-279b-4ad6-bb12-ae2a58b79f78))
-    (pin "4" (uuid 50999d13-a444-4036-af07-b15dc4981ab3))
-    (pin "5" (uuid 92fc5b47-95f6-4877-a537-2979bb4edfc2))
-    (pin "6" (uuid 3f8a36ee-f631-4591-bbb8-0aca6826b7d7))
-    (pin "7" (uuid 30b5a2ec-3648-4c59-816d-e4accc76afb9))
-    (pin "8" (uuid 05862611-b5ee-4afc-a944-eb345921b80d))
-    (pin "9" (uuid 8d340012-e6ed-4580-a97c-108a066cf55e))
+    (pin "1" (uuid 957e0f5c-170d-48f6-8078-f66ec8ca8444))
+    (pin "10" (uuid 7893ff2b-0740-4ade-9470-e6e7ceef05b2))
+    (pin "11" (uuid b25a4f00-e2b0-4ad3-b93b-c390786e5fdc))
+    (pin "12" (uuid 18e7062a-0ec2-49b3-9f51-689f0c97ddc1))
+    (pin "13" (uuid 0ea6a4e8-04ab-4f42-8aeb-2b1944537545))
+    (pin "14" (uuid 4be47839-5509-466b-9565-810313a283ae))
+    (pin "15" (uuid 3d4b2980-eea1-45d8-9d73-900530a6a15e))
+    (pin "16" (uuid 352516de-a7ef-4e3b-867b-7118182516da))
+    (pin "17" (uuid 6c404539-168c-46d9-b924-97412826b472))
+    (pin "18" (uuid 265d5624-6abd-48ab-afec-ef600591b9fe))
+    (pin "19" (uuid aa428edf-b22b-42ce-823c-f87fb8feac7a))
+    (pin "2" (uuid 5a4c00a8-323c-4bb1-a717-849b9e3d9094))
+    (pin "20" (uuid 6871d52a-597c-4459-b8a3-862ab5d325c7))
+    (pin "21" (uuid 59ea0cdf-ccaf-4343-99ea-3dbef5e614e4))
+    (pin "22" (uuid 606aad4a-fe41-4aee-8904-259c79039a87))
+    (pin "23" (uuid 0da58395-b97b-45a8-9d9f-cfcaddea0adc))
+    (pin "24" (uuid 3f612b80-f507-4d62-8030-46e1f133f9de))
+    (pin "25" (uuid b5698baa-55bb-4fd5-a19a-a3c476519d82))
+    (pin "26" (uuid 87de47af-3bf1-43df-b3c8-73a08b58b082))
+    (pin "27" (uuid 143bbbfc-99b2-4da9-892a-3246349686a5))
+    (pin "28" (uuid 81436ff7-d3cf-432d-a8da-99a27d2c94d5))
+    (pin "29" (uuid 16ab766a-b0c1-4ee2-94c7-a85f02154aa5))
+    (pin "3" (uuid 0be72659-e1b2-4af1-8ccf-d5cc01a63767))
+    (pin "30" (uuid 1639c17d-e8f7-4320-8d0a-99d37abf6f59))
+    (pin "31" (uuid b439f893-c68a-4b32-980a-acafc2c000ba))
+    (pin "32" (uuid 5f5589ef-abf8-4d3f-84d6-6e7abe7c5247))
+    (pin "33" (uuid 03fff8cf-118c-4731-9913-aea9f83dcb0f))
+    (pin "34" (uuid 2f28000c-d14f-4148-9ab0-95e3d695a5c4))
+    (pin "35" (uuid f1a76689-0b5e-48fb-8d5d-ac60f3923644))
+    (pin "36" (uuid a4cabe0a-00ca-445f-866f-1f9cd7467c5e))
+    (pin "37" (uuid 68239f27-91be-42a9-b60f-bf9a076cb7cc))
+    (pin "38" (uuid 6e78b2d7-bfd4-48ea-ad80-50c32ca83c9d))
+    (pin "4" (uuid 23335af0-4a6b-428e-b422-34dac1b283db))
+    (pin "5" (uuid 91b56af2-ec70-47e5-a514-9ebea607ef0b))
+    (pin "6" (uuid 859f3866-cff1-4fb6-9c75-75ea1ff1602b))
+    (pin "7" (uuid 3642a6d5-8aeb-4e1d-92d3-bde85419e56e))
+    (pin "8" (uuid c4ba7226-64d2-449e-af41-0d48aaebf086))
+    (pin "9" (uuid 6bdb944f-2e33-41fb-a0c1-032d8a98cdfc))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4029,7 +4029,7 @@
     (property "Datasheet" "" (at 109.22 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7420d957-c51a-44a1-9265-8a8cf8dbb231))
+    (pin "1" (uuid 881355f8-c3e3-4e7a-a6c2-b11912663359))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4054,7 +4054,7 @@
     (property "Datasheet" "" (at 22.225 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44a42d3f-7aa4-4a79-ad5a-7199a81447cb))
+    (pin "1" (uuid 42a80963-d8ee-46f6-9f86-daa7703aa397))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4082,8 +4082,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B104K101NT_C110255.html" (at 230.505 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e5c080da-8276-446e-83ac-c546777ebf4f))
-    (pin "2" (uuid 20edd6c1-eacb-4674-8eaa-ba79fceddf8b))
+    (pin "1" (uuid ed5b2b1d-a528-42b6-ac25-ff4a96edff3f))
+    (pin "2" (uuid e9607046-16fb-4fa5-be4a-21c0c44b3d01))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4108,7 +4108,7 @@
     (property "Datasheet" "" (at 116.84 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b10fbe1-883d-4115-a4db-90dc316bef90))
+    (pin "1" (uuid aef8686b-c8f7-4b29-9bc9-22c024c900da))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4133,7 +4133,7 @@
     (property "Datasheet" "" (at 90.805 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6e1a8883-1587-4868-be4f-e0e870e4e990))
+    (pin "1" (uuid d53d6380-8fce-404a-b93d-c1e7ae30ada5))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4158,10 +4158,10 @@
     (property "Datasheet" "http://www.normandled.com/upload/201810/SK6812%20SIDE-A%20LED%20Datasheet.pdf" (at 221.615 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 4f0e51af-0464-40c4-85a0-184c4ba477be))
-    (pin "2" (uuid 855a7080-d27a-4617-b57d-ce66803b54aa))
-    (pin "3" (uuid 49c37418-cc81-4884-b1ce-894d9fbe7d8c))
-    (pin "4" (uuid 5b878654-f0f5-4f7c-8f44-0b4cd4792d54))
+    (pin "1" (uuid 4923a97a-800d-4b88-ab86-d065fb32d263))
+    (pin "2" (uuid 7525075b-190c-4c21-b8c9-1ffb0789c274))
+    (pin "3" (uuid 00fd0b2b-d8f1-4f91-97ba-7367d5162c97))
+    (pin "4" (uuid 5a9cec69-e63f-44a9-a91b-a19038ae8bee))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4189,8 +4189,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_ROQANG-VT1V220M0505_C239256.html" (at 106.68 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5931b3c6-3ddf-496f-a847-b83eed402d84))
-    (pin "2" (uuid d3e03d7b-239e-4fc6-a7ab-7f95889a29de))
+    (pin "1" (uuid 4575d8b4-aaa8-4195-9fd6-2b6c6b2a46f4))
+    (pin "2" (uuid b5819354-cb0e-4723-bc3b-74660ab9eb38))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4215,8 +4215,8 @@
     (property "Datasheet" "~" (at 214.63 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ecacde7-7a96-4a14-b2de-02d0f0dbf2ae))
-    (pin "2" (uuid 4f36abbc-d3be-4572-9988-ed9db49ebcd7))
+    (pin "1" (uuid 7d0a06e6-e5a1-469f-8d97-f1c57f1ec916))
+    (pin "2" (uuid dfff4450-6bf8-4733-b45c-9f7c82d85077))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4250,10 +4250,10 @@
     (property "Datasheet" "http://www.normandled.com/upload/201810/SK6812%20SIDE-A%20LED%20Datasheet.pdf" (at 267.335 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 68dbd7ef-f01d-4dc5-8927-b6003beb0486))
-    (pin "2" (uuid d6675685-399b-419f-8705-4001cddfe07f))
-    (pin "3" (uuid 76da0092-0256-479f-a0ae-5654809b1569))
-    (pin "4" (uuid 5195ff2d-092f-48fb-b2cc-3876f5954d04))
+    (pin "1" (uuid 8eb5ce56-bb4c-47b0-8a10-8b5874a59ccd))
+    (pin "2" (uuid d61fc19f-071e-4000-be8a-7a6dc4949890))
+    (pin "3" (uuid 00542375-c311-46da-bd75-6e6ae3a16ca6))
+    (pin "4" (uuid 513c9ccc-103a-4d4f-862b-83561f4545de))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4278,9 +4278,9 @@
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" (at 369.57 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 8585198b-b964-43db-a795-6cbdff9eb510))
-    (pin "2" (uuid 4bd41af6-6d9f-4203-ab04-9a90ab489b31))
-    (pin "3" (uuid 04bc42bd-2b8c-4a96-a45d-82611ff7f5fc))
+    (pin "1" (uuid ab7a1264-3137-4a2f-b61c-f76292ccd493))
+    (pin "2" (uuid 2c840f74-b36e-41a8-843a-3d080ec1d4a3))
+    (pin "3" (uuid 6f215f4d-7356-4f25-b52a-1e0200b5bfc7))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4305,7 +4305,7 @@
     (property "Datasheet" "" (at 208.28 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a1423206-1cb0-4804-89f1-65d5f3a49c95))
+    (pin "1" (uuid 0c4ef241-c46b-49f9-ac24-a345d06f5231))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4330,10 +4330,10 @@
     (property "Datasheet" "http://www.normandled.com/upload/201810/SK6812%20SIDE-A%20LED%20Datasheet.pdf" (at 335.915 163.195 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid d981ba60-6f5c-431a-b7aa-c43a81ad3584))
-    (pin "2" (uuid ac49047e-f36e-453e-a800-bb7428739bec))
-    (pin "3" (uuid 6457a74c-c1cb-407c-b8d2-825271133b05))
-    (pin "4" (uuid 29229f93-19e7-40e9-b06b-e69d248e50e7))
+    (pin "1" (uuid ab2f57c6-2810-48e8-ad4d-26047a507098))
+    (pin "2" (uuid fbd82e1d-5b32-4d72-bede-2a751abf811f))
+    (pin "3" (uuid 8a42c085-28a5-406d-9e2d-6d2b928050a9))
+    (pin "4" (uuid 606671f9-7431-424b-a426-98ad300342ec))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4361,8 +4361,8 @@
     (property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B104K101NT_C110255.html" (at 299.085 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 345f1124-2b57-44be-b5fc-dcd60a4c88b0))
-    (pin "2" (uuid 98b63940-5e44-4274-bd81-cce317993d32))
+    (pin "1" (uuid 17294011-988b-41e1-8317-c768b5e2e9a9))
+    (pin "2" (uuid 03a856e6-b589-430d-8fe4-06b36f4ad60d))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
@@ -4387,7 +4387,7 @@
     (property "Datasheet" "" (at 240.03 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4fa1d1f-3185-42c4-8369-80bb87944a2b))
+    (pin "1" (uuid 1196475d-6b86-4560-850c-2d03028a5ff6))
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
