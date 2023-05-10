@@ -28,8 +28,14 @@ fp-info-cache
 # Arena Controller Config
 ArenaController/ArenaController-backups/*
 AudioController/AudioController-backups/*
-LightController/LightController-backups/*
-Stacklight/Stacklight-backups/*
+StackLight/Stacklight-backups/*
 TeamButton/TeamButton-backups/*
 TeamSign/TeamSign-backups/*
+
+ArenaController/gerbers/*
+AudioController/gerbers/*
+StackLight/gerbers/*
+ArenaController/gerbers/*
 TeamSign/gerbers/*
+TeamButton/gerbers/*
+

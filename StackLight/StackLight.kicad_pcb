@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "grb/")
+      (outputdirectory "gerbers/")
     )
   )
 
@@ -303,7 +303,7 @@
     (pad "" np_thru_hole circle (at 12 18 270) (size 3.5 3.5) (drill 3.5) (layers "*.Cu" "*.Mask") (tstamp 6d78e503-19fa-4dd3-a563-c7e09f9b67bf))
     (pad "" np_thru_hole circle (at 18 18 270) (size 3.5 3.5) (drill 3.5) (layers "*.Cu" "*.Mask") (tstamp 79e36834-6ceb-4427-aa94-f5122fbdae72))
     (pad "" np_thru_hole circle (at 24 18 270) (size 3.5 3.5) (drill 3.5) (layers "*.Cu" "*.Mask") (tstamp f80dc0e6-73f4-4cea-80d7-68d5d521dc74))
-    (pad "1" thru_hole roundrect (at 0 0 270) (size 3.1 3.1) (drill 2.1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.080645)
+    (pad "1" thru_hole roundrect (at 0 0 270) (size 3.1 3.1) (drill 2.1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.08064483871)
       (net 5 "/BZR") (pinfunction "Pin_1") (pintype "passive") (tstamp c997d50c-caf1-482e-ae98-f3e1129c2a0b))
     (pad "2" thru_hole circle (at 6 0 270) (size 3.1 3.1) (drill 2.1) (layers "*.Cu" "*.Mask")
       (net 4 "/GRN") (pinfunction "Pin_2") (pintype "passive") (tstamp 05b68bfc-8b2a-4724-951a-45bfed4b4b83))
