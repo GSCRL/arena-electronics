@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(7.0.0)"
+      "Version": "7.0.2"
     },
-    "CreationDate": "2023-04-04T21:03:59-04:00"
+    "CreationDate": "2023-05-10T12:42:33-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "StackLight",
       "GUID": "53746163-6b4c-4696-9768-742e6b696361",
-      "Revision": "rev?"
+      "Revision": "0.5"
     },
     "Size": {
-      "X": 40.74,
-      "Y": 35.6363
+      "X": 50.2,
+      "Y": 30.2
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,7 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25,
+      "MinLineWidth": 0.508,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
     }
@@ -90,24 +90,29 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

@@ -1803,7 +1803,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f42f5bb2-2fa2-44f8-a81d-5bec0389bff4)
   )
-  (text "Stacklights\n\n1 - 12V\n2 - RED\n3 - YELLOW\n4 - GRN\n5 - BZR\n6 - N/C\n7 - N/C\n8 - N/C"
+  (text "Stacklights\n\n1 - 12V\n2 - RED\n3 - YELLOW\n4 - GRN\n5 - BZR\n6 - N/C\n7 - N/C\n8 - GND"
     (at 187.96 87.63 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid feedbd0a-1a34-4700-9909-f5b6afb37e8e)
