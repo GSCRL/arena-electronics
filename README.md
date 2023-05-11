@@ -12,3 +12,15 @@ lib_deps = bblanchon/ArduinoJson
 build_flags = -O2 -D DEBUG_ESP_PORT=Serial
 build_unflags = -Os
 ```
+
+# Broker Setup
+
+```
+allow_anonymous true
+
+listener 1883
+protocol mqtt
+
+listener 9001
+protocol websockets
+```
