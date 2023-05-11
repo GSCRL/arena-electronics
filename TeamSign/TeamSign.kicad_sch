@@ -3620,7 +3620,7 @@
   (symbol (lib_id "Device:C") (at 187.325 272.415 0) (unit 1)
     (in_bom no) (on_board no) (dnp yes) (fields_autoplaced)
     (uuid 98e84c40-2f26-4a65-a4eb-01fb12521669)
-    (property "Reference" "C98" (at 191.135 271.78 0)
+    (property "Reference" "C9999" (at 191.135 271.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 191.135 274.32 0)
@@ -3643,7 +3643,7 @@
     (instances
       (project "TeamSign"
         (path "/e53f9913-0070-41c4-b6c8-5a044462b6d9"
-          (reference "C98") (unit 1)
+          (reference "C9999") (unit 1)
         )
       )
     )
