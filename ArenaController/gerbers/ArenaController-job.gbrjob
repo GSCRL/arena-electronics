@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.2"
     },
-    "CreationDate": "2023-05-10T12:44:23-04:00"
+    "CreationDate": "2023-06-06T19:57:18-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "ArenaController",
       "GUID": "4172656e-6143-46f6-9e74-726f6c6c6572",
-      "Revision": "v0.4"
+      "Revision": "v0.6"
     },
     "Size": {
       "X": 80.2,
