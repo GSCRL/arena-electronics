@@ -27,7 +27,8 @@ for p in project_roots:
         p / "gerbers"
     )  # what the hell, this works?  Guess they override the division symbol.  Wild!
 
-    gerber_files = list(gerber_folder.glob("*.gbr*"))
+    gerber_files = [gerber_folder.glob(filetype) for filetype in ["*.gbr*", "*.drl*"]]
+    gerber_files = [item for sublist in gerber_files for item in sublist]
 
     projects.append({"gerbers": gerber_files, "project_name": p.name})
 
@@ -41,9 +42,11 @@ for p in projects:
         with zipfile.ZipFile(output_zip_loc, mode="w") as archive:
             for filename in p["gerbers"]:
                 archive.write(filename)
+
+            print(f"Wrote new ZIP of {p['project_name']}!")
     else:
         print(
             f"Could not cut release for {p['project_name']}, as there were no gerbers in the output directory."
         )
 
-print("Done!")
+print("*** Done exporting! ***")
