@@ -452,8 +452,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "Bot_Arena_control.net",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "ArenaController.step",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
