@@ -2634,14 +2634,14 @@
     (pin "6" (uuid 0e49ff54-b834-4bb4-8001-9aed9b8807b3))
     (pin "7" (uuid 24e09ea4-8979-4e67-bb25-61132432ab73))
     (pin "9" (uuid 81f9b80a-a1cf-4810-8cb5-f182cbdcb7c2))
-    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a0))
-    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a0))
-    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a0))
-    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a0))
-    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a0))
-    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a0))
-    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a0))
-    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a0))
+    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a7))
+    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a7))
+    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a7))
+    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a7))
+    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a7))
+    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a7))
+    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a7))
+    (pin "GND" (uuid 418c2915-f033-4155-b1a1-9166a8c747a7))
     (instances
       (project "ArenaController"
         (path "/156576da-4c7a-4c71-af43-7540e3a24bd3"
